@@ -1,0 +1,5 @@
+Resistor footprint revisions:
+2.54mm wide, 3.08mm long
+
+Pads: 
+2.54mm on width of footprint, 0.72mm on lengthwise of footprint
