@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Blinkers-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D1
+L Blinkers-rescue:LED D1
 U 1 1 5A8DF146
 P 1600 2250
 F 0 "D1" H 1600 2350 50  0000 C CNN
@@ -58,7 +26,7 @@ F 3 "" H 1600 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D8
+L Blinkers-rescue:LED D8
 U 1 1 5A8DF202
 P 2100 2250
 F 0 "D8" H 2100 2350 50  0000 C CNN
@@ -69,7 +37,7 @@ F 3 "" H 2100 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D15
+L Blinkers-rescue:LED D15
 U 1 1 5A8DF21E
 P 2600 2250
 F 0 "D15" H 2600 2350 50  0000 C CNN
@@ -80,7 +48,7 @@ F 3 "" H 2600 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D2
+L Blinkers-rescue:LED D2
 U 1 1 5A8DF293
 P 1600 2650
 F 0 "D2" H 1600 2750 50  0000 C CNN
@@ -91,7 +59,7 @@ F 3 "" H 1600 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D9
+L Blinkers-rescue:LED D9
 U 1 1 5A8DF299
 P 2100 2650
 F 0 "D9" H 2100 2750 50  0000 C CNN
@@ -102,7 +70,7 @@ F 3 "" H 2100 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D16
+L Blinkers-rescue:LED D16
 U 1 1 5A8DF29F
 P 2600 2650
 F 0 "D16" H 2600 2750 50  0000 C CNN
@@ -113,7 +81,7 @@ F 3 "" H 2600 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D21
+L Blinkers-rescue:LED D21
 U 1 1 5A8DF395
 P 2600 4750
 F 0 "D21" H 2600 4850 50  0000 C CNN
@@ -124,7 +92,7 @@ F 3 "" H 2600 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D14
+L Blinkers-rescue:LED D14
 U 1 1 5A8DF39B
 P 2100 4750
 F 0 "D14" H 2100 4850 50  0000 C CNN
@@ -135,7 +103,7 @@ F 3 "" H 2100 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D7
+L Blinkers-rescue:LED D7
 U 1 1 5A8DF3A1
 P 1600 4750
 F 0 "D7" H 1600 4850 50  0000 C CNN
@@ -146,7 +114,7 @@ F 3 "" H 1600 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R2
+L Blinkers-rescue:R R2
 U 1 1 5A8DF790
 P 1300 2200
 F 0 "R2" V 1380 2200 50  0000 C CNN
@@ -157,7 +125,7 @@ F 3 "" H 1300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L Blinkers-rescue:R R4
 U 1 1 5A8DF7EF
 P 1800 2200
 F 0 "R4" V 1880 2200 50  0000 C CNN
@@ -168,7 +136,7 @@ F 3 "" H 1800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Blinkers-rescue:R R6
 U 1 1 5A8DF85D
 P 2300 2200
 F 0 "R6" V 2380 2200 50  0000 C CNN
@@ -179,7 +147,7 @@ F 3 "" H 2300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Blinkers-rescue:R R1
 U 1 1 5A8DF8C3
 P 1250 4750
 F 0 "R1" V 1330 4750 50  0000 C CNN
@@ -190,7 +158,7 @@ F 3 "" H 1250 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_DGS Q1
+L Blinkers-rescue:Q_NMOS_DGS Q1
 U 1 1 5A8DFF82
 P 2900 5000
 F 0 "Q1" H 3100 5050 50  0000 L CNN
@@ -201,7 +169,7 @@ F 3 "" H 2900 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D3
+L Blinkers-rescue:LED D3
 U 1 1 5A8E14F2
 P 1600 3050
 F 0 "D3" H 1600 3150 50  0000 C CNN
@@ -212,7 +180,7 @@ F 3 "" H 1600 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D10
+L Blinkers-rescue:LED D10
 U 1 1 5A8E14F8
 P 2100 3050
 F 0 "D10" H 2100 3150 50  0000 C CNN
@@ -223,7 +191,7 @@ F 3 "" H 2100 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D17
+L Blinkers-rescue:LED D17
 U 1 1 5A8E14FE
 P 2600 3050
 F 0 "D17" H 2600 3150 50  0000 C CNN
@@ -234,7 +202,7 @@ F 3 "" H 2600 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D4
+L Blinkers-rescue:LED D4
 U 1 1 5A8E1A78
 P 1600 3550
 F 0 "D4" H 1600 3650 50  0000 C CNN
@@ -245,7 +213,7 @@ F 3 "" H 1600 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D11
+L Blinkers-rescue:LED D11
 U 1 1 5A8E1A7E
 P 2100 3550
 F 0 "D11" H 2100 3650 50  0000 C CNN
@@ -256,7 +224,7 @@ F 3 "" H 2100 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D18
+L Blinkers-rescue:LED D18
 U 1 1 5A8E1A84
 P 2600 3550
 F 0 "D18" H 2600 3650 50  0000 C CNN
@@ -267,7 +235,7 @@ F 3 "" H 2600 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D5
+L Blinkers-rescue:LED D5
 U 1 1 5A8E1A8A
 P 1600 3950
 F 0 "D5" H 1600 4050 50  0000 C CNN
@@ -278,7 +246,7 @@ F 3 "" H 1600 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D12
+L Blinkers-rescue:LED D12
 U 1 1 5A8E1A90
 P 2100 3950
 F 0 "D12" H 2100 4050 50  0000 C CNN
@@ -289,7 +257,7 @@ F 3 "" H 2100 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D19
+L Blinkers-rescue:LED D19
 U 1 1 5A8E1A96
 P 2600 3950
 F 0 "D19" H 2600 4050 50  0000 C CNN
@@ -300,7 +268,7 @@ F 3 "" H 2600 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L Blinkers-rescue:R R3
 U 1 1 5A8E1A9C
 P 1300 3500
 F 0 "R3" V 1380 3500 50  0000 C CNN
@@ -311,7 +279,7 @@ F 3 "" H 1300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Blinkers-rescue:R R5
 U 1 1 5A8E1AA2
 P 1800 3500
 F 0 "R5" V 1880 3500 50  0000 C CNN
@@ -322,7 +290,7 @@ F 3 "" H 1800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Blinkers-rescue:R R7
 U 1 1 5A8E1AA8
 P 2300 3500
 F 0 "R7" V 2380 3500 50  0000 C CNN
@@ -333,7 +301,7 @@ F 3 "" H 2300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D6
+L Blinkers-rescue:LED D6
 U 1 1 5A8E1ABB
 P 1600 4350
 F 0 "D6" H 1600 4450 50  0000 C CNN
@@ -344,7 +312,7 @@ F 3 "" H 1600 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D13
+L Blinkers-rescue:LED D13
 U 1 1 5A8E1AC1
 P 2100 4350
 F 0 "D13" H 2100 4450 50  0000 C CNN
@@ -355,7 +323,7 @@ F 3 "" H 2100 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D20
+L Blinkers-rescue:LED D20
 U 1 1 5A8E1AC7
 P 2600 4350
 F 0 "D20" H 2600 4450 50  0000 C CNN
@@ -404,7 +372,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3200 1600 3250
 Wire Wire Line
-	1600 3250 2800 3250
+	1600 3250 2100 3250
 Wire Wire Line
 	2100 3250 2100 3200
 Wire Wire Line
@@ -449,14 +417,14 @@ Wire Wire Line
 Wire Wire Line
 	1600 4500 1600 4550
 Wire Wire Line
-	1600 4550 2800 4550
+	1600 4550 2100 4550
 Wire Wire Line
 	2100 4550 2100 4500
 Wire Wire Line
 	2600 4550 2600 4500
 Connection ~ 2100 4550
 Wire Wire Line
-	1200 2050 1200 4650
+	1200 2050 1200 3350
 Connection ~ 1300 3350
 Connection ~ 1300 2050
 Wire Wire Line
@@ -471,7 +439,7 @@ Wire Wire Line
 	1100 4650 1100 4750
 Connection ~ 1200 3350
 Wire Wire Line
-	2800 3250 2800 4800
+	2800 3250 2800 4550
 Wire Wire Line
 	2800 4750 2750 4750
 Connection ~ 2600 3250
@@ -479,7 +447,7 @@ Connection ~ 2800 4550
 Connection ~ 2600 4550
 Connection ~ 2800 4750
 $Comp
-L GND #PWR01
+L Blinkers-rescue:GND #PWR01
 U 1 1 5A8E2F2A
 P 2800 5200
 F 0 "#PWR01" H 2800 4950 50  0001 C CNN
@@ -490,13 +458,13 @@ F 3 "" H 2800 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 3350 2300 3350
+	1200 3350 1300 3350
 Connection ~ 1800 3350
 Wire Wire Line
-	1200 2050 2300 2050
+	1200 2050 1300 2050
 Connection ~ 1800 2050
 $Comp
-L Conn_01x01 J1
+L Blinkers-rescue:Conn_01x01 J1
 U 1 1 5A8E4E03
 P 800 1300
 F 0 "J1" H 800 1400 50  0000 C CNN
@@ -507,7 +475,7 @@ F 3 "" H 800 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x01 J2
+L Blinkers-rescue:Conn_01x01 J2
 U 1 1 5A8E5C35
 P 3100 5200
 F 0 "J2" H 3100 5300 50  0000 C CNN
@@ -518,7 +486,7 @@ F 3 "" H 3100 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 J3
+L Blinkers-rescue:Conn_01x01 J3
 U 1 1 5A8E5EA7
 P 1350 1550
 F 0 "J3" H 1350 1650 50  0000 C CNN
@@ -533,7 +501,7 @@ Text GLabel 800  1500 3    60   Input ~ 0
 Text GLabel 1200 2050 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR02
+L Blinkers-rescue:GND #PWR02
 U 1 1 5A8E6C65
 P 1150 1550
 F 0 "#PWR02" H 1150 1300 50  0001 C CNN
@@ -544,7 +512,7 @@ F 3 "" H 1150 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D34
+L Blinkers-rescue:LED D34
 U 1 1 5AF4A8C1
 P 3600 2250
 F 0 "D34" H 3600 2350 50  0000 C CNN
@@ -555,7 +523,7 @@ F 3 "" H 3600 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D44
+L Blinkers-rescue:LED D44
 U 1 1 5AF4A8C8
 P 4100 2250
 F 0 "D44" H 4100 2350 50  0000 C CNN
@@ -566,7 +534,7 @@ F 3 "" H 4100 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D54
+L Blinkers-rescue:LED D54
 U 1 1 5AF4A8CF
 P 4600 2250
 F 0 "D54" H 4600 2350 50  0000 C CNN
@@ -577,7 +545,7 @@ F 3 "" H 4600 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D35
+L Blinkers-rescue:LED D35
 U 1 1 5AF4A8D6
 P 3600 2650
 F 0 "D35" H 3600 2750 50  0000 C CNN
@@ -588,7 +556,7 @@ F 3 "" H 3600 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D45
+L Blinkers-rescue:LED D45
 U 1 1 5AF4A8DD
 P 4100 2650
 F 0 "D45" H 4100 2750 50  0000 C CNN
@@ -599,7 +567,7 @@ F 3 "" H 4100 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D55
+L Blinkers-rescue:LED D55
 U 1 1 5AF4A8E4
 P 4600 2650
 F 0 "D55" H 4600 2750 50  0000 C CNN
@@ -610,7 +578,7 @@ F 3 "" H 4600 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D60
+L Blinkers-rescue:LED D60
 U 1 1 5AF4A8EB
 P 4600 4750
 F 0 "D60" H 4600 4850 50  0000 C CNN
@@ -621,7 +589,7 @@ F 3 "" H 4600 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D50
+L Blinkers-rescue:LED D50
 U 1 1 5AF4A8F2
 P 4100 4750
 F 0 "D50" H 4100 4850 50  0000 C CNN
@@ -632,7 +600,7 @@ F 3 "" H 4100 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D40
+L Blinkers-rescue:LED D40
 U 1 1 5AF4A8F9
 P 3600 4750
 F 0 "D40" H 3600 4850 50  0000 C CNN
@@ -643,7 +611,7 @@ F 3 "" H 3600 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R14
+L Blinkers-rescue:R R14
 U 1 1 5AF4A900
 P 3300 2200
 F 0 "R14" V 3380 2200 50  0000 C CNN
@@ -654,7 +622,7 @@ F 3 "" H 3300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L Blinkers-rescue:R R17
 U 1 1 5AF4A907
 P 3800 2200
 F 0 "R17" V 3880 2200 50  0000 C CNN
@@ -665,7 +633,7 @@ F 3 "" H 3800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
+L Blinkers-rescue:R R19
 U 1 1 5AF4A90E
 P 4300 2200
 F 0 "R19" V 4380 2200 50  0000 C CNN
@@ -676,7 +644,7 @@ F 3 "" H 4300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Blinkers-rescue:R R12
 U 1 1 5AF4A915
 P 3250 4750
 F 0 "R12" V 3330 4750 50  0000 C CNN
@@ -687,7 +655,7 @@ F 3 "" H 3250 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_DGS Q2
+L Blinkers-rescue:Q_NMOS_DGS Q2
 U 1 1 5AF4A91C
 P 4900 5000
 F 0 "Q2" H 5100 5050 50  0000 L CNN
@@ -698,7 +666,7 @@ F 3 "" H 4900 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D36
+L Blinkers-rescue:LED D36
 U 1 1 5AF4A923
 P 3600 3050
 F 0 "D36" H 3600 3150 50  0000 C CNN
@@ -709,7 +677,7 @@ F 3 "" H 3600 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D46
+L Blinkers-rescue:LED D46
 U 1 1 5AF4A92A
 P 4100 3050
 F 0 "D46" H 4100 3150 50  0000 C CNN
@@ -720,7 +688,7 @@ F 3 "" H 4100 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D56
+L Blinkers-rescue:LED D56
 U 1 1 5AF4A931
 P 4600 3050
 F 0 "D56" H 4600 3150 50  0000 C CNN
@@ -731,7 +699,7 @@ F 3 "" H 4600 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D37
+L Blinkers-rescue:LED D37
 U 1 1 5AF4A938
 P 3600 3550
 F 0 "D37" H 3600 3650 50  0000 C CNN
@@ -742,7 +710,7 @@ F 3 "" H 3600 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D47
+L Blinkers-rescue:LED D47
 U 1 1 5AF4A93F
 P 4100 3550
 F 0 "D47" H 4100 3650 50  0000 C CNN
@@ -753,7 +721,7 @@ F 3 "" H 4100 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D57
+L Blinkers-rescue:LED D57
 U 1 1 5AF4A946
 P 4600 3550
 F 0 "D57" H 4600 3650 50  0000 C CNN
@@ -764,7 +732,7 @@ F 3 "" H 4600 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D38
+L Blinkers-rescue:LED D38
 U 1 1 5AF4A94D
 P 3600 3950
 F 0 "D38" H 3600 4050 50  0000 C CNN
@@ -775,7 +743,7 @@ F 3 "" H 3600 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D48
+L Blinkers-rescue:LED D48
 U 1 1 5AF4A954
 P 4100 3950
 F 0 "D48" H 4100 4050 50  0000 C CNN
@@ -786,7 +754,7 @@ F 3 "" H 4100 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D58
+L Blinkers-rescue:LED D58
 U 1 1 5AF4A95B
 P 4600 3950
 F 0 "D58" H 4600 4050 50  0000 C CNN
@@ -797,7 +765,7 @@ F 3 "" H 4600 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R15
+L Blinkers-rescue:R R15
 U 1 1 5AF4A962
 P 3300 3500
 F 0 "R15" V 3380 3500 50  0000 C CNN
@@ -808,7 +776,7 @@ F 3 "" H 3300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L Blinkers-rescue:R R18
 U 1 1 5AF4A969
 P 3800 3500
 F 0 "R18" V 3880 3500 50  0000 C CNN
@@ -819,7 +787,7 @@ F 3 "" H 3800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L Blinkers-rescue:R R20
 U 1 1 5AF4A970
 P 4300 3500
 F 0 "R20" V 4380 3500 50  0000 C CNN
@@ -830,7 +798,7 @@ F 3 "" H 4300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D39
+L Blinkers-rescue:LED D39
 U 1 1 5AF4A977
 P 3600 4350
 F 0 "D39" H 3600 4450 50  0000 C CNN
@@ -841,7 +809,7 @@ F 3 "" H 3600 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D49
+L Blinkers-rescue:LED D49
 U 1 1 5AF4A97E
 P 4100 4350
 F 0 "D49" H 4100 4450 50  0000 C CNN
@@ -852,7 +820,7 @@ F 3 "" H 4100 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D59
+L Blinkers-rescue:LED D59
 U 1 1 5AF4A985
 P 4600 4350
 F 0 "D59" H 4600 4450 50  0000 C CNN
@@ -901,7 +869,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3200 3600 3250
 Wire Wire Line
-	3600 3250 4800 3250
+	3600 3250 4100 3250
 Wire Wire Line
 	4100 3250 4100 3200
 Wire Wire Line
@@ -946,14 +914,14 @@ Wire Wire Line
 Wire Wire Line
 	3600 4500 3600 4550
 Wire Wire Line
-	3600 4550 4800 4550
+	3600 4550 4100 4550
 Wire Wire Line
 	4100 4550 4100 4500
 Wire Wire Line
 	4600 4550 4600 4500
 Connection ~ 4100 4550
 Wire Wire Line
-	3200 2050 3200 4650
+	3200 2050 3200 3350
 Connection ~ 3300 3350
 Connection ~ 3300 2050
 Wire Wire Line
@@ -968,7 +936,7 @@ Wire Wire Line
 	3100 4650 3100 4750
 Connection ~ 3200 3350
 Wire Wire Line
-	4800 3250 4800 4800
+	4800 3250 4800 4550
 Wire Wire Line
 	4800 4750 4750 4750
 Connection ~ 4600 3250
@@ -976,13 +944,13 @@ Connection ~ 4800 4550
 Connection ~ 4600 4550
 Connection ~ 4800 4750
 Wire Wire Line
-	3200 3350 4300 3350
+	3200 3350 3300 3350
 Connection ~ 3800 3350
 Wire Wire Line
-	3200 2050 4300 2050
+	3200 2050 3300 2050
 Connection ~ 3800 2050
 $Comp
-L Conn_01x01 J4
+L Blinkers-rescue:Conn_01x01 J4
 U 1 1 5AF4A9CD
 P 5100 5200
 F 0 "J4" H 5100 5300 50  0000 C CNN
@@ -995,7 +963,7 @@ $EndComp
 Text GLabel 3200 2050 0    60   Input ~ 0
 12V
 $Comp
-L LED D61
+L Blinkers-rescue:LED D61
 U 1 1 5AF4B415
 P 5500 2250
 F 0 "D61" H 5500 2350 50  0000 C CNN
@@ -1006,7 +974,7 @@ F 3 "" H 5500 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D70
+L Blinkers-rescue:LED D70
 U 1 1 5AF4B41C
 P 6000 2250
 F 0 "D70" H 6000 2350 50  0000 C CNN
@@ -1017,7 +985,7 @@ F 3 "" H 6000 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D80
+L Blinkers-rescue:LED D80
 U 1 1 5AF4B423
 P 6500 2250
 F 0 "D80" H 6500 2350 50  0000 C CNN
@@ -1028,7 +996,7 @@ F 3 "" H 6500 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D62
+L Blinkers-rescue:LED D62
 U 1 1 5AF4B42A
 P 5500 2650
 F 0 "D62" H 5500 2750 50  0000 C CNN
@@ -1039,7 +1007,7 @@ F 3 "" H 5500 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D71
+L Blinkers-rescue:LED D71
 U 1 1 5AF4B431
 P 6000 2650
 F 0 "D71" H 6000 2750 50  0000 C CNN
@@ -1050,7 +1018,7 @@ F 3 "" H 6000 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D81
+L Blinkers-rescue:LED D81
 U 1 1 5AF4B438
 P 6500 2650
 F 0 "D81" H 6500 2750 50  0000 C CNN
@@ -1061,7 +1029,7 @@ F 3 "" H 6500 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D86
+L Blinkers-rescue:LED D86
 U 1 1 5AF4B43F
 P 6500 4750
 F 0 "D86" H 6500 4850 50  0000 C CNN
@@ -1072,7 +1040,7 @@ F 3 "" H 6500 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D76
+L Blinkers-rescue:LED D76
 U 1 1 5AF4B446
 P 6000 4750
 F 0 "D76" H 6000 4850 50  0000 C CNN
@@ -1083,7 +1051,7 @@ F 3 "" H 6000 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D67
+L Blinkers-rescue:LED D67
 U 1 1 5AF4B44D
 P 5500 4750
 F 0 "D67" H 5500 4850 50  0000 C CNN
@@ -1094,7 +1062,7 @@ F 3 "" H 5500 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R22
+L Blinkers-rescue:R R22
 U 1 1 5AF4B454
 P 5200 2200
 F 0 "R22" V 5280 2200 50  0000 C CNN
@@ -1105,7 +1073,7 @@ F 3 "" H 5200 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R26
+L Blinkers-rescue:R R26
 U 1 1 5AF4B45B
 P 5700 2200
 F 0 "R26" V 5780 2200 50  0000 C CNN
@@ -1116,7 +1084,7 @@ F 3 "" H 5700 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L Blinkers-rescue:R R28
 U 1 1 5AF4B462
 P 6200 2200
 F 0 "R28" V 6280 2200 50  0000 C CNN
@@ -1127,7 +1095,7 @@ F 3 "" H 6200 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R21
+L Blinkers-rescue:R R21
 U 1 1 5AF4B469
 P 5150 4750
 F 0 "R21" V 5230 4750 50  0000 C CNN
@@ -1138,7 +1106,7 @@ F 3 "" H 5150 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_DGS Q3
+L Blinkers-rescue:Q_NMOS_DGS Q3
 U 1 1 5AF4B470
 P 6800 5000
 F 0 "Q3" H 7000 5050 50  0000 L CNN
@@ -1149,7 +1117,7 @@ F 3 "" H 6800 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D63
+L Blinkers-rescue:LED D63
 U 1 1 5AF4B477
 P 5500 3050
 F 0 "D63" H 5500 3150 50  0000 C CNN
@@ -1160,7 +1128,7 @@ F 3 "" H 5500 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D72
+L Blinkers-rescue:LED D72
 U 1 1 5AF4B47E
 P 6000 3050
 F 0 "D72" H 6000 3150 50  0000 C CNN
@@ -1171,7 +1139,7 @@ F 3 "" H 6000 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D82
+L Blinkers-rescue:LED D82
 U 1 1 5AF4B485
 P 6500 3050
 F 0 "D82" H 6500 3150 50  0000 C CNN
@@ -1182,7 +1150,7 @@ F 3 "" H 6500 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D64
+L Blinkers-rescue:LED D64
 U 1 1 5AF4B48C
 P 5500 3550
 F 0 "D64" H 5500 3650 50  0000 C CNN
@@ -1193,7 +1161,7 @@ F 3 "" H 5500 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D73
+L Blinkers-rescue:LED D73
 U 1 1 5AF4B493
 P 6000 3550
 F 0 "D73" H 6000 3650 50  0000 C CNN
@@ -1204,7 +1172,7 @@ F 3 "" H 6000 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D83
+L Blinkers-rescue:LED D83
 U 1 1 5AF4B49A
 P 6500 3550
 F 0 "D83" H 6500 3650 50  0000 C CNN
@@ -1215,7 +1183,7 @@ F 3 "" H 6500 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D65
+L Blinkers-rescue:LED D65
 U 1 1 5AF4B4A1
 P 5500 3950
 F 0 "D65" H 5500 4050 50  0000 C CNN
@@ -1226,7 +1194,7 @@ F 3 "" H 5500 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D74
+L Blinkers-rescue:LED D74
 U 1 1 5AF4B4A8
 P 6000 3950
 F 0 "D74" H 6000 4050 50  0000 C CNN
@@ -1237,7 +1205,7 @@ F 3 "" H 6000 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D84
+L Blinkers-rescue:LED D84
 U 1 1 5AF4B4AF
 P 6500 3950
 F 0 "D84" H 6500 4050 50  0000 C CNN
@@ -1248,7 +1216,7 @@ F 3 "" H 6500 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R23
+L Blinkers-rescue:R R23
 U 1 1 5AF4B4B6
 P 5200 3500
 F 0 "R23" V 5280 3500 50  0000 C CNN
@@ -1259,7 +1227,7 @@ F 3 "" H 5200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R27
+L Blinkers-rescue:R R27
 U 1 1 5AF4B4BD
 P 5700 3500
 F 0 "R27" V 5780 3500 50  0000 C CNN
@@ -1270,7 +1238,7 @@ F 3 "" H 5700 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R29
+L Blinkers-rescue:R R29
 U 1 1 5AF4B4C4
 P 6200 3500
 F 0 "R29" V 6280 3500 50  0000 C CNN
@@ -1281,7 +1249,7 @@ F 3 "" H 6200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D66
+L Blinkers-rescue:LED D66
 U 1 1 5AF4B4CB
 P 5500 4350
 F 0 "D66" H 5500 4450 50  0000 C CNN
@@ -1292,7 +1260,7 @@ F 3 "" H 5500 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D75
+L Blinkers-rescue:LED D75
 U 1 1 5AF4B4D2
 P 6000 4350
 F 0 "D75" H 6000 4450 50  0000 C CNN
@@ -1303,7 +1271,7 @@ F 3 "" H 6000 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D85
+L Blinkers-rescue:LED D85
 U 1 1 5AF4B4D9
 P 6500 4350
 F 0 "D85" H 6500 4450 50  0000 C CNN
@@ -1352,7 +1320,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3200 5500 3250
 Wire Wire Line
-	5500 3250 6700 3250
+	5500 3250 6000 3250
 Wire Wire Line
 	6000 3250 6000 3200
 Wire Wire Line
@@ -1397,14 +1365,14 @@ Wire Wire Line
 Wire Wire Line
 	5500 4500 5500 4550
 Wire Wire Line
-	5500 4550 6700 4550
+	5500 4550 6000 4550
 Wire Wire Line
 	6000 4550 6000 4500
 Wire Wire Line
 	6500 4550 6500 4500
 Connection ~ 6000 4550
 Wire Wire Line
-	5100 2050 5100 4650
+	5100 2050 5100 3350
 Connection ~ 5200 3350
 Connection ~ 5200 2050
 Wire Wire Line
@@ -1419,7 +1387,7 @@ Wire Wire Line
 	5000 4650 5000 4750
 Connection ~ 5100 3350
 Wire Wire Line
-	6700 3250 6700 4800
+	6700 3250 6700 4550
 Wire Wire Line
 	6700 4750 6650 4750
 Connection ~ 6500 3250
@@ -1427,13 +1395,13 @@ Connection ~ 6700 4550
 Connection ~ 6500 4550
 Connection ~ 6700 4750
 Wire Wire Line
-	5100 3350 6200 3350
+	5100 3350 5200 3350
 Connection ~ 5700 3350
 Wire Wire Line
-	5100 2050 6200 2050
+	5100 2050 5200 2050
 Connection ~ 5700 2050
 $Comp
-L Conn_01x01 J5
+L Blinkers-rescue:Conn_01x01 J5
 U 1 1 5AF4B521
 P 12850 5200
 F 0 "J5" H 12850 5300 50  0000 C CNN
@@ -1446,7 +1414,7 @@ $EndComp
 Text GLabel 5100 2050 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR03
+L Blinkers-rescue:GND #PWR03
 U 1 1 5AF4BC5D
 P 6700 5200
 F 0 "#PWR03" H 6700 4950 50  0001 C CNN
@@ -1457,7 +1425,7 @@ F 3 "" H 6700 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L Blinkers-rescue:GND #PWR04
 U 1 1 5AF4BD29
 P 4800 5200
 F 0 "#PWR04" H 4800 4950 50  0001 C CNN
@@ -1468,7 +1436,7 @@ F 3 "" H 4800 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L Blinkers-rescue:R R8
 U 1 1 5AF4E6A3
 P 800 2200
 F 0 "R8" V 880 2200 50  0000 C CNN
@@ -1479,7 +1447,7 @@ F 3 "" H 800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D22
+L Blinkers-rescue:D D22
 U 1 1 5AF4E7CF
 P 800 2600
 F 0 "D22" H 800 2700 50  0000 C CNN
@@ -1490,7 +1458,7 @@ F 3 "" H 800 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D24
+L Blinkers-rescue:D D24
 U 1 1 5AF4E99D
 P 800 3400
 F 0 "D24" H 800 3500 50  0000 C CNN
@@ -1507,7 +1475,7 @@ Wire Wire Line
 Text GLabel 800  2050 1    60   Input ~ 0
 12V
 $Comp
-L GND #PWR05
+L Blinkers-rescue:GND #PWR05
 U 1 1 5AF4F339
 P 800 3550
 F 0 "#PWR05" H 800 3300 50  0001 C CNN
@@ -1518,7 +1486,7 @@ F 3 "" H 800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L Blinkers-rescue:R R9
 U 1 1 5AF4F920
 P 800 4150
 F 0 "R9" V 880 4150 50  0000 C CNN
@@ -1529,7 +1497,7 @@ F 3 "" H 800 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D25
+L Blinkers-rescue:D D25
 U 1 1 5AF4F927
 P 800 4550
 F 0 "D25" H 800 4650 50  0000 C CNN
@@ -1540,7 +1508,7 @@ F 3 "" H 800 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D27
+L Blinkers-rescue:D D27
 U 1 1 5AF4F935
 P 800 5350
 F 0 "D27" H 800 5450 50  0000 C CNN
@@ -1557,7 +1525,7 @@ Wire Wire Line
 Text GLabel 800  4000 1    60   Input ~ 0
 12V
 $Comp
-L GND #PWR06
+L Blinkers-rescue:GND #PWR06
 U 1 1 5AF4F940
 P 800 5500
 F 0 "#PWR06" H 800 5250 50  0001 C CNN
@@ -1568,7 +1536,7 @@ F 3 "" H 800 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L Blinkers-rescue:R R11
 U 1 1 5AF50148
 P 1400 5600
 F 0 "R11" V 1480 5600 50  0000 C CNN
@@ -1579,7 +1547,7 @@ F 3 "" H 1400 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D29
+L Blinkers-rescue:D D29
 U 1 1 5AF5014F
 P 1800 5600
 F 0 "D29" H 1800 5700 50  0000 C CNN
@@ -1590,7 +1558,7 @@ F 3 "" H 1800 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D31
+L Blinkers-rescue:D D31
 U 1 1 5AF50156
 P 2200 5600
 F 0 "D31" H 2200 5700 50  0000 C CNN
@@ -1601,7 +1569,7 @@ F 3 "" H 2200 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D33
+L Blinkers-rescue:D D33
 U 1 1 5AF5015D
 P 2600 5600
 F 0 "D33" H 2600 5700 50  0000 C CNN
@@ -1620,7 +1588,7 @@ Wire Wire Line
 Text GLabel 1250 5600 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR07
+L Blinkers-rescue:GND #PWR07
 U 1 1 5AF50168
 P 2750 5600
 F 0 "#PWR07" H 2750 5350 50  0001 C CNN
@@ -1631,7 +1599,7 @@ F 3 "" H 2750 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R16
+L Blinkers-rescue:R R16
 U 1 1 5AF50C0B
 P 3350 5600
 F 0 "R16" V 3430 5600 50  0000 C CNN
@@ -1642,7 +1610,7 @@ F 3 "" H 3350 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D42
+L Blinkers-rescue:D D42
 U 1 1 5AF50C12
 P 3750 5600
 F 0 "D42" H 3750 5700 50  0000 C CNN
@@ -1653,7 +1621,7 @@ F 3 "" H 3750 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D51
+L Blinkers-rescue:D D51
 U 1 1 5AF50C19
 P 4150 5600
 F 0 "D51" H 4150 5700 50  0000 C CNN
@@ -1664,7 +1632,7 @@ F 3 "" H 4150 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D53
+L Blinkers-rescue:D D53
 U 1 1 5AF50C20
 P 4550 5600
 F 0 "D53" H 4550 5700 50  0000 C CNN
@@ -1683,7 +1651,7 @@ Wire Wire Line
 Text GLabel 3200 5600 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR08
+L Blinkers-rescue:GND #PWR08
 U 1 1 5AF50C2B
 P 4700 5600
 F 0 "#PWR08" H 4700 5350 50  0001 C CNN
@@ -1694,7 +1662,7 @@ F 3 "" H 4700 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R25
+L Blinkers-rescue:R R25
 U 1 1 5AF50E0D
 P 5300 5600
 F 0 "R25" V 5380 5600 50  0000 C CNN
@@ -1705,7 +1673,7 @@ F 3 "" H 5300 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D69
+L Blinkers-rescue:D D69
 U 1 1 5AF50E14
 P 5700 5600
 F 0 "D69" H 5700 5700 50  0000 C CNN
@@ -1716,7 +1684,7 @@ F 3 "" H 5700 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D78
+L Blinkers-rescue:D D78
 U 1 1 5AF50E1B
 P 6100 5600
 F 0 "D78" H 6100 5700 50  0000 C CNN
@@ -1727,7 +1695,7 @@ F 3 "" H 6100 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D87
+L Blinkers-rescue:D D87
 U 1 1 5AF50E22
 P 6500 5600
 F 0 "D87" H 6500 5700 50  0000 C CNN
@@ -1746,7 +1714,7 @@ Wire Wire Line
 Text GLabel 5150 5600 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR09
+L Blinkers-rescue:GND #PWR09
 U 1 1 5AF50E2D
 P 6650 5600
 F 0 "#PWR09" H 6650 5350 50  0001 C CNN
@@ -1757,7 +1725,7 @@ F 3 "" H 6650 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R10
+L Blinkers-rescue:R R10
 U 1 1 5AF51EE2
 P 1350 1850
 F 0 "R10" V 1430 1850 50  0000 C CNN
@@ -1768,7 +1736,7 @@ F 3 "" H 1350 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D28
+L Blinkers-rescue:D D28
 U 1 1 5AF51EE9
 P 1750 1850
 F 0 "D28" H 1750 1950 50  0000 C CNN
@@ -1779,7 +1747,7 @@ F 3 "" H 1750 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D30
+L Blinkers-rescue:D D30
 U 1 1 5AF51EF0
 P 2150 1850
 F 0 "D30" H 2150 1950 50  0000 C CNN
@@ -1790,7 +1758,7 @@ F 3 "" H 2150 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D32
+L Blinkers-rescue:D D32
 U 1 1 5AF51EF7
 P 2550 1850
 F 0 "D32" H 2550 1950 50  0000 C CNN
@@ -1809,7 +1777,7 @@ Wire Wire Line
 Text GLabel 1200 1850 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR010
+L Blinkers-rescue:GND #PWR010
 U 1 1 5AF51F02
 P 2700 1850
 F 0 "#PWR010" H 2700 1600 50  0001 C CNN
@@ -1820,7 +1788,7 @@ F 3 "" H 2700 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R13
+L Blinkers-rescue:R R13
 U 1 1 5AF51F08
 P 3300 1850
 F 0 "R13" V 3380 1850 50  0000 C CNN
@@ -1831,7 +1799,7 @@ F 3 "" H 3300 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D41
+L Blinkers-rescue:D D41
 U 1 1 5AF51F0F
 P 3700 1850
 F 0 "D41" H 3700 1950 50  0000 C CNN
@@ -1842,7 +1810,7 @@ F 3 "" H 3700 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D43
+L Blinkers-rescue:D D43
 U 1 1 5AF51F16
 P 4100 1850
 F 0 "D43" H 4100 1950 50  0000 C CNN
@@ -1853,7 +1821,7 @@ F 3 "" H 4100 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D52
+L Blinkers-rescue:D D52
 U 1 1 5AF51F1D
 P 4500 1850
 F 0 "D52" H 4500 1950 50  0000 C CNN
@@ -1872,7 +1840,7 @@ Wire Wire Line
 Text GLabel 3150 1850 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR011
+L Blinkers-rescue:GND #PWR011
 U 1 1 5AF51F28
 P 4650 1850
 F 0 "#PWR011" H 4650 1600 50  0001 C CNN
@@ -1883,7 +1851,7 @@ F 3 "" H 4650 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R24
+L Blinkers-rescue:R R24
 U 1 1 5AF51F2E
 P 5250 1850
 F 0 "R24" V 5330 1850 50  0000 C CNN
@@ -1894,7 +1862,7 @@ F 3 "" H 5250 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D68
+L Blinkers-rescue:D D68
 U 1 1 5AF51F35
 P 5650 1850
 F 0 "D68" H 5650 1950 50  0000 C CNN
@@ -1905,7 +1873,7 @@ F 3 "" H 5650 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D77
+L Blinkers-rescue:D D77
 U 1 1 5AF51F3C
 P 6050 1850
 F 0 "D77" H 6050 1950 50  0000 C CNN
@@ -1916,7 +1884,7 @@ F 3 "" H 6050 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D79
+L Blinkers-rescue:D D79
 U 1 1 5AF51F43
 P 6450 1850
 F 0 "D79" H 6450 1950 50  0000 C CNN
@@ -1935,7 +1903,7 @@ Wire Wire Line
 Text GLabel 5100 1850 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR012
+L Blinkers-rescue:GND #PWR012
 U 1 1 5AF51F4E
 P 6600 1850
 F 0 "#PWR012" H 6600 1600 50  0001 C CNN
@@ -1946,7 +1914,7 @@ F 3 "" H 6600 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R30
+L Blinkers-rescue:R R30
 U 1 1 5AF52CA2
 P 13150 2150
 F 0 "R30" V 13230 2150 50  0000 C CNN
@@ -1957,7 +1925,7 @@ F 3 "" H 13150 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D88
+L Blinkers-rescue:D D88
 U 1 1 5AF52CA9
 P 13150 2550
 F 0 "D88" H 13150 2650 50  0000 C CNN
@@ -1968,7 +1936,7 @@ F 3 "" H 13150 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D90
+L Blinkers-rescue:D D90
 U 1 1 5AF52CB7
 P 13150 3350
 F 0 "D90" H 13150 3450 50  0000 C CNN
@@ -1985,7 +1953,7 @@ Wire Wire Line
 Text GLabel 13150 2000 1    60   Input ~ 0
 12V
 $Comp
-L GND #PWR013
+L Blinkers-rescue:GND #PWR013
 U 1 1 5AF52CC2
 P 13150 3500
 F 0 "#PWR013" H 13150 3250 50  0001 C CNN
@@ -1996,7 +1964,7 @@ F 3 "" H 13150 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R31
+L Blinkers-rescue:R R31
 U 1 1 5AF52CC8
 P 13150 4100
 F 0 "R31" V 13230 4100 50  0000 C CNN
@@ -2007,7 +1975,7 @@ F 3 "" H 13150 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D91
+L Blinkers-rescue:D D91
 U 1 1 5AF52CCF
 P 13150 4500
 F 0 "D91" H 13150 4600 50  0000 C CNN
@@ -2018,7 +1986,7 @@ F 3 "" H 13150 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D93
+L Blinkers-rescue:D D93
 U 1 1 5AF52CDD
 P 13150 5300
 F 0 "D93" H 13150 5400 50  0000 C CNN
@@ -2035,7 +2003,7 @@ Wire Wire Line
 Text GLabel 13150 3950 1    60   Input ~ 0
 12V
 $Comp
-L GND #PWR014
+L Blinkers-rescue:GND #PWR014
 U 1 1 5AF52CE8
 P 13150 5450
 F 0 "#PWR014" H 13150 5200 50  0001 C CNN
@@ -2046,7 +2014,7 @@ F 3 "" H 13150 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D94
+L Blinkers-rescue:LED D94
 U 1 1 5AFA068A
 P 7450 2250
 F 0 "D94" H 7450 2350 50  0000 C CNN
@@ -2057,7 +2025,7 @@ F 3 "" H 7450 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D103
+L Blinkers-rescue:LED D103
 U 1 1 5AFA0691
 P 7950 2250
 F 0 "D103" H 7950 2350 50  0000 C CNN
@@ -2068,7 +2036,7 @@ F 3 "" H 7950 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D113
+L Blinkers-rescue:LED D113
 U 1 1 5AFA0698
 P 8450 2250
 F 0 "D113" H 8450 2350 50  0000 C CNN
@@ -2079,7 +2047,7 @@ F 3 "" H 8450 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D95
+L Blinkers-rescue:LED D95
 U 1 1 5AFA069F
 P 7450 2650
 F 0 "D95" H 7450 2750 50  0000 C CNN
@@ -2090,7 +2058,7 @@ F 3 "" H 7450 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D104
+L Blinkers-rescue:LED D104
 U 1 1 5AFA06A6
 P 7950 2650
 F 0 "D104" H 7950 2750 50  0000 C CNN
@@ -2101,7 +2069,7 @@ F 3 "" H 7950 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D114
+L Blinkers-rescue:LED D114
 U 1 1 5AFA06AD
 P 8450 2650
 F 0 "D114" H 8450 2750 50  0000 C CNN
@@ -2112,7 +2080,7 @@ F 3 "" H 8450 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D119
+L Blinkers-rescue:LED D119
 U 1 1 5AFA06B4
 P 8450 4750
 F 0 "D119" H 8450 4850 50  0000 C CNN
@@ -2123,7 +2091,7 @@ F 3 "" H 8450 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D109
+L Blinkers-rescue:LED D109
 U 1 1 5AFA06BB
 P 7950 4750
 F 0 "D109" H 7950 4850 50  0000 C CNN
@@ -2134,7 +2102,7 @@ F 3 "" H 7950 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D100
+L Blinkers-rescue:LED D100
 U 1 1 5AFA06C2
 P 7450 4750
 F 0 "D100" H 7450 4850 50  0000 C CNN
@@ -2145,7 +2113,7 @@ F 3 "" H 7450 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R33
+L Blinkers-rescue:R R33
 U 1 1 5AFA06C9
 P 7150 2200
 F 0 "R33" V 7230 2200 50  0000 C CNN
@@ -2156,7 +2124,7 @@ F 3 "" H 7150 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R37
+L Blinkers-rescue:R R37
 U 1 1 5AFA06D0
 P 7650 2200
 F 0 "R37" V 7730 2200 50  0000 C CNN
@@ -2167,7 +2135,7 @@ F 3 "" H 7650 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R39
+L Blinkers-rescue:R R39
 U 1 1 5AFA06D7
 P 8150 2200
 F 0 "R39" V 8230 2200 50  0000 C CNN
@@ -2178,7 +2146,7 @@ F 3 "" H 8150 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L Blinkers-rescue:R R32
 U 1 1 5AFA06DE
 P 7100 4750
 F 0 "R32" V 7180 4750 50  0000 C CNN
@@ -2189,7 +2157,7 @@ F 3 "" H 7100 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_DGS Q4
+L Blinkers-rescue:Q_NMOS_DGS Q4
 U 1 1 5AFA06E5
 P 8750 5000
 F 0 "Q4" H 8950 5050 50  0000 L CNN
@@ -2200,7 +2168,7 @@ F 3 "" H 8750 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D96
+L Blinkers-rescue:LED D96
 U 1 1 5AFA06EC
 P 7450 3050
 F 0 "D96" H 7450 3150 50  0000 C CNN
@@ -2211,7 +2179,7 @@ F 3 "" H 7450 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D105
+L Blinkers-rescue:LED D105
 U 1 1 5AFA06F3
 P 7950 3050
 F 0 "D105" H 7950 3150 50  0000 C CNN
@@ -2222,7 +2190,7 @@ F 3 "" H 7950 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D115
+L Blinkers-rescue:LED D115
 U 1 1 5AFA06FA
 P 8450 3050
 F 0 "D115" H 8450 3150 50  0000 C CNN
@@ -2233,7 +2201,7 @@ F 3 "" H 8450 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D97
+L Blinkers-rescue:LED D97
 U 1 1 5AFA0701
 P 7450 3550
 F 0 "D97" H 7450 3650 50  0000 C CNN
@@ -2244,7 +2212,7 @@ F 3 "" H 7450 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D106
+L Blinkers-rescue:LED D106
 U 1 1 5AFA0708
 P 7950 3550
 F 0 "D106" H 7950 3650 50  0000 C CNN
@@ -2255,7 +2223,7 @@ F 3 "" H 7950 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D116
+L Blinkers-rescue:LED D116
 U 1 1 5AFA070F
 P 8450 3550
 F 0 "D116" H 8450 3650 50  0000 C CNN
@@ -2266,7 +2234,7 @@ F 3 "" H 8450 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D98
+L Blinkers-rescue:LED D98
 U 1 1 5AFA0716
 P 7450 3950
 F 0 "D98" H 7450 4050 50  0000 C CNN
@@ -2277,7 +2245,7 @@ F 3 "" H 7450 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D107
+L Blinkers-rescue:LED D107
 U 1 1 5AFA071D
 P 7950 3950
 F 0 "D107" H 7950 4050 50  0000 C CNN
@@ -2288,7 +2256,7 @@ F 3 "" H 7950 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D117
+L Blinkers-rescue:LED D117
 U 1 1 5AFA0724
 P 8450 3950
 F 0 "D117" H 8450 4050 50  0000 C CNN
@@ -2299,7 +2267,7 @@ F 3 "" H 8450 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R34
+L Blinkers-rescue:R R34
 U 1 1 5AFA072B
 P 7150 3500
 F 0 "R34" V 7230 3500 50  0000 C CNN
@@ -2310,7 +2278,7 @@ F 3 "" H 7150 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R38
+L Blinkers-rescue:R R38
 U 1 1 5AFA0732
 P 7650 3500
 F 0 "R38" V 7730 3500 50  0000 C CNN
@@ -2321,7 +2289,7 @@ F 3 "" H 7650 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R40
+L Blinkers-rescue:R R40
 U 1 1 5AFA0739
 P 8150 3500
 F 0 "R40" V 8230 3500 50  0000 C CNN
@@ -2332,7 +2300,7 @@ F 3 "" H 8150 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D99
+L Blinkers-rescue:LED D99
 U 1 1 5AFA0740
 P 7450 4350
 F 0 "D99" H 7450 4450 50  0000 C CNN
@@ -2343,7 +2311,7 @@ F 3 "" H 7450 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D108
+L Blinkers-rescue:LED D108
 U 1 1 5AFA0747
 P 7950 4350
 F 0 "D108" H 7950 4450 50  0000 C CNN
@@ -2354,7 +2322,7 @@ F 3 "" H 7950 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D118
+L Blinkers-rescue:LED D118
 U 1 1 5AFA074E
 P 8450 4350
 F 0 "D118" H 8450 4450 50  0000 C CNN
@@ -2403,7 +2371,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 3200 7450 3250
 Wire Wire Line
-	7450 3250 8650 3250
+	7450 3250 7950 3250
 Wire Wire Line
 	7950 3250 7950 3200
 Wire Wire Line
@@ -2448,14 +2416,14 @@ Wire Wire Line
 Wire Wire Line
 	7450 4500 7450 4550
 Wire Wire Line
-	7450 4550 8650 4550
+	7450 4550 7950 4550
 Wire Wire Line
 	7950 4550 7950 4500
 Wire Wire Line
 	8450 4550 8450 4500
 Connection ~ 7950 4550
 Wire Wire Line
-	7050 2050 7050 4650
+	7050 2050 7050 3350
 Connection ~ 7150 3350
 Connection ~ 7150 2050
 Wire Wire Line
@@ -2470,7 +2438,7 @@ Wire Wire Line
 	6950 4650 6950 4750
 Connection ~ 7050 3350
 Wire Wire Line
-	8650 3250 8650 4800
+	8650 3250 8650 4550
 Wire Wire Line
 	8650 4750 8600 4750
 Connection ~ 8450 3250
@@ -2478,15 +2446,15 @@ Connection ~ 8650 4550
 Connection ~ 8450 4550
 Connection ~ 8650 4750
 Wire Wire Line
-	7050 3350 8150 3350
+	7050 3350 7150 3350
 Connection ~ 7650 3350
 Wire Wire Line
-	7050 2050 8150 2050
+	7050 2050 7150 2050
 Connection ~ 7650 2050
 Text GLabel 7050 2050 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR015
+L Blinkers-rescue:GND #PWR015
 U 1 1 5AFA0797
 P 8650 5200
 F 0 "#PWR015" H 8650 4950 50  0001 C CNN
@@ -2497,7 +2465,7 @@ F 3 "" H 8650 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R36
+L Blinkers-rescue:R R36
 U 1 1 5AFA079D
 P 7250 5600
 F 0 "R36" V 7330 5600 50  0000 C CNN
@@ -2508,7 +2476,7 @@ F 3 "" H 7250 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D102
+L Blinkers-rescue:D D102
 U 1 1 5AFA07A4
 P 7650 5600
 F 0 "D102" H 7650 5700 50  0000 C CNN
@@ -2519,7 +2487,7 @@ F 3 "" H 7650 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D111
+L Blinkers-rescue:D D111
 U 1 1 5AFA07AB
 P 8050 5600
 F 0 "D111" H 8050 5700 50  0000 C CNN
@@ -2530,7 +2498,7 @@ F 3 "" H 8050 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D120
+L Blinkers-rescue:D D120
 U 1 1 5AFA07B2
 P 8450 5600
 F 0 "D120" H 8450 5700 50  0000 C CNN
@@ -2549,7 +2517,7 @@ Wire Wire Line
 Text GLabel 7100 5600 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR016
+L Blinkers-rescue:GND #PWR016
 U 1 1 5AFA07BD
 P 8600 5600
 F 0 "#PWR016" H 8600 5350 50  0001 C CNN
@@ -2560,7 +2528,7 @@ F 3 "" H 8600 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R35
+L Blinkers-rescue:R R35
 U 1 1 5AFA07C3
 P 7200 1850
 F 0 "R35" V 7280 1850 50  0000 C CNN
@@ -2571,7 +2539,7 @@ F 3 "" H 7200 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D101
+L Blinkers-rescue:D D101
 U 1 1 5AFA07CA
 P 7600 1850
 F 0 "D101" H 7600 1950 50  0000 C CNN
@@ -2582,7 +2550,7 @@ F 3 "" H 7600 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D110
+L Blinkers-rescue:D D110
 U 1 1 5AFA07D1
 P 8000 1850
 F 0 "D110" H 8000 1950 50  0000 C CNN
@@ -2593,7 +2561,7 @@ F 3 "" H 8000 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D112
+L Blinkers-rescue:D D112
 U 1 1 5AFA07D8
 P 8400 1850
 F 0 "D112" H 8400 1950 50  0000 C CNN
@@ -2612,7 +2580,7 @@ Wire Wire Line
 Text GLabel 7050 1850 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR017
+L Blinkers-rescue:GND #PWR017
 U 1 1 5AFA07E3
 P 8550 1850
 F 0 "#PWR017" H 8550 1600 50  0001 C CNN
@@ -2623,7 +2591,7 @@ F 3 "" H 8550 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D121
+L Blinkers-rescue:LED D121
 U 1 1 5AFA4DB2
 P 9400 2250
 F 0 "D121" H 9400 2350 50  0000 C CNN
@@ -2634,7 +2602,7 @@ F 3 "" H 9400 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D130
+L Blinkers-rescue:LED D130
 U 1 1 5AFA4DB9
 P 9900 2250
 F 0 "D130" H 9900 2350 50  0000 C CNN
@@ -2645,7 +2613,7 @@ F 3 "" H 9900 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D140
+L Blinkers-rescue:LED D140
 U 1 1 5AFA4DC0
 P 10400 2250
 F 0 "D140" H 10400 2350 50  0000 C CNN
@@ -2656,7 +2624,7 @@ F 3 "" H 10400 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D122
+L Blinkers-rescue:LED D122
 U 1 1 5AFA4DC7
 P 9400 2650
 F 0 "D122" H 9400 2750 50  0000 C CNN
@@ -2667,7 +2635,7 @@ F 3 "" H 9400 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D131
+L Blinkers-rescue:LED D131
 U 1 1 5AFA4DCE
 P 9900 2650
 F 0 "D131" H 9900 2750 50  0000 C CNN
@@ -2678,7 +2646,7 @@ F 3 "" H 9900 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D141
+L Blinkers-rescue:LED D141
 U 1 1 5AFA4DD5
 P 10400 2650
 F 0 "D141" H 10400 2750 50  0000 C CNN
@@ -2689,7 +2657,7 @@ F 3 "" H 10400 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D146
+L Blinkers-rescue:LED D146
 U 1 1 5AFA4DDC
 P 10400 4750
 F 0 "D146" H 10400 4850 50  0000 C CNN
@@ -2700,7 +2668,7 @@ F 3 "" H 10400 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D136
+L Blinkers-rescue:LED D136
 U 1 1 5AFA4DE3
 P 9900 4750
 F 0 "D136" H 9900 4850 50  0000 C CNN
@@ -2711,7 +2679,7 @@ F 3 "" H 9900 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D127
+L Blinkers-rescue:LED D127
 U 1 1 5AFA4DEA
 P 9400 4750
 F 0 "D127" H 9400 4850 50  0000 C CNN
@@ -2722,7 +2690,7 @@ F 3 "" H 9400 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R42
+L Blinkers-rescue:R R42
 U 1 1 5AFA4DF1
 P 9100 2200
 F 0 "R42" V 9180 2200 50  0000 C CNN
@@ -2733,7 +2701,7 @@ F 3 "" H 9100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R46
+L Blinkers-rescue:R R46
 U 1 1 5AFA4DF8
 P 9600 2200
 F 0 "R46" V 9680 2200 50  0000 C CNN
@@ -2744,7 +2712,7 @@ F 3 "" H 9600 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R48
+L Blinkers-rescue:R R48
 U 1 1 5AFA4DFF
 P 10100 2200
 F 0 "R48" V 10180 2200 50  0000 C CNN
@@ -2755,7 +2723,7 @@ F 3 "" H 10100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R41
+L Blinkers-rescue:R R41
 U 1 1 5AFA4E06
 P 9050 4750
 F 0 "R41" V 9130 4750 50  0000 C CNN
@@ -2766,7 +2734,7 @@ F 3 "" H 9050 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_DGS Q5
+L Blinkers-rescue:Q_NMOS_DGS Q5
 U 1 1 5AFA4E0D
 P 10700 5000
 F 0 "Q5" H 10900 5050 50  0000 L CNN
@@ -2777,7 +2745,7 @@ F 3 "" H 10700 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D123
+L Blinkers-rescue:LED D123
 U 1 1 5AFA4E14
 P 9400 3050
 F 0 "D123" H 9400 3150 50  0000 C CNN
@@ -2788,7 +2756,7 @@ F 3 "" H 9400 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D132
+L Blinkers-rescue:LED D132
 U 1 1 5AFA4E1B
 P 9900 3050
 F 0 "D132" H 9900 3150 50  0000 C CNN
@@ -2799,7 +2767,7 @@ F 3 "" H 9900 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D142
+L Blinkers-rescue:LED D142
 U 1 1 5AFA4E22
 P 10400 3050
 F 0 "D142" H 10400 3150 50  0000 C CNN
@@ -2810,7 +2778,7 @@ F 3 "" H 10400 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D124
+L Blinkers-rescue:LED D124
 U 1 1 5AFA4E29
 P 9400 3550
 F 0 "D124" H 9400 3650 50  0000 C CNN
@@ -2821,7 +2789,7 @@ F 3 "" H 9400 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D133
+L Blinkers-rescue:LED D133
 U 1 1 5AFA4E30
 P 9900 3550
 F 0 "D133" H 9900 3650 50  0000 C CNN
@@ -2832,7 +2800,7 @@ F 3 "" H 9900 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D143
+L Blinkers-rescue:LED D143
 U 1 1 5AFA4E37
 P 10400 3550
 F 0 "D143" H 10400 3650 50  0000 C CNN
@@ -2843,7 +2811,7 @@ F 3 "" H 10400 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D125
+L Blinkers-rescue:LED D125
 U 1 1 5AFA4E3E
 P 9400 3950
 F 0 "D125" H 9400 4050 50  0000 C CNN
@@ -2854,7 +2822,7 @@ F 3 "" H 9400 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D134
+L Blinkers-rescue:LED D134
 U 1 1 5AFA4E45
 P 9900 3950
 F 0 "D134" H 9900 4050 50  0000 C CNN
@@ -2865,7 +2833,7 @@ F 3 "" H 9900 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D144
+L Blinkers-rescue:LED D144
 U 1 1 5AFA4E4C
 P 10400 3950
 F 0 "D144" H 10400 4050 50  0000 C CNN
@@ -2876,7 +2844,7 @@ F 3 "" H 10400 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R43
+L Blinkers-rescue:R R43
 U 1 1 5AFA4E53
 P 9100 3500
 F 0 "R43" V 9180 3500 50  0000 C CNN
@@ -2887,7 +2855,7 @@ F 3 "" H 9100 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R47
+L Blinkers-rescue:R R47
 U 1 1 5AFA4E5A
 P 9600 3500
 F 0 "R47" V 9680 3500 50  0000 C CNN
@@ -2898,7 +2866,7 @@ F 3 "" H 9600 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R49
+L Blinkers-rescue:R R49
 U 1 1 5AFA4E61
 P 10100 3500
 F 0 "R49" V 10180 3500 50  0000 C CNN
@@ -2909,7 +2877,7 @@ F 3 "" H 10100 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D126
+L Blinkers-rescue:LED D126
 U 1 1 5AFA4E68
 P 9400 4350
 F 0 "D126" H 9400 4450 50  0000 C CNN
@@ -2920,7 +2888,7 @@ F 3 "" H 9400 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D135
+L Blinkers-rescue:LED D135
 U 1 1 5AFA4E6F
 P 9900 4350
 F 0 "D135" H 9900 4450 50  0000 C CNN
@@ -2931,7 +2899,7 @@ F 3 "" H 9900 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D145
+L Blinkers-rescue:LED D145
 U 1 1 5AFA4E76
 P 10400 4350
 F 0 "D145" H 10400 4450 50  0000 C CNN
@@ -2980,7 +2948,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 3200 9400 3250
 Wire Wire Line
-	9400 3250 10600 3250
+	9400 3250 9900 3250
 Wire Wire Line
 	9900 3250 9900 3200
 Wire Wire Line
@@ -3025,14 +2993,14 @@ Wire Wire Line
 Wire Wire Line
 	9400 4500 9400 4550
 Wire Wire Line
-	9400 4550 10600 4550
+	9400 4550 9900 4550
 Wire Wire Line
 	9900 4550 9900 4500
 Wire Wire Line
 	10400 4550 10400 4500
 Connection ~ 9900 4550
 Wire Wire Line
-	9000 2050 9000 4650
+	9000 2050 9000 3350
 Connection ~ 9100 3350
 Connection ~ 9100 2050
 Wire Wire Line
@@ -3047,7 +3015,7 @@ Wire Wire Line
 	8900 4650 8900 4750
 Connection ~ 9000 3350
 Wire Wire Line
-	10600 3250 10600 4800
+	10600 3250 10600 4550
 Wire Wire Line
 	10600 4750 10550 4750
 Connection ~ 10400 3250
@@ -3055,15 +3023,15 @@ Connection ~ 10600 4550
 Connection ~ 10400 4550
 Connection ~ 10600 4750
 Wire Wire Line
-	9000 3350 10100 3350
+	9000 3350 9100 3350
 Connection ~ 9600 3350
 Wire Wire Line
-	9000 2050 10100 2050
+	9000 2050 9100 2050
 Connection ~ 9600 2050
 Text GLabel 9000 2050 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR018
+L Blinkers-rescue:GND #PWR018
 U 1 1 5AFA4EBF
 P 10600 5200
 F 0 "#PWR018" H 10600 4950 50  0001 C CNN
@@ -3074,7 +3042,7 @@ F 3 "" H 10600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R45
+L Blinkers-rescue:R R45
 U 1 1 5AFA4EC5
 P 9200 5600
 F 0 "R45" V 9280 5600 50  0000 C CNN
@@ -3085,7 +3053,7 @@ F 3 "" H 9200 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D129
+L Blinkers-rescue:D D129
 U 1 1 5AFA4ECC
 P 9600 5600
 F 0 "D129" H 9600 5700 50  0000 C CNN
@@ -3096,7 +3064,7 @@ F 3 "" H 9600 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D138
+L Blinkers-rescue:D D138
 U 1 1 5AFA4ED3
 P 10000 5600
 F 0 "D138" H 10000 5700 50  0000 C CNN
@@ -3107,7 +3075,7 @@ F 3 "" H 10000 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D147
+L Blinkers-rescue:D D147
 U 1 1 5AFA4EDA
 P 10400 5600
 F 0 "D147" H 10400 5700 50  0000 C CNN
@@ -3126,7 +3094,7 @@ Wire Wire Line
 Text GLabel 9050 5600 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR019
+L Blinkers-rescue:GND #PWR019
 U 1 1 5AFA4EE5
 P 10550 5600
 F 0 "#PWR019" H 10550 5350 50  0001 C CNN
@@ -3137,7 +3105,7 @@ F 3 "" H 10550 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R44
+L Blinkers-rescue:R R44
 U 1 1 5AFA4EEB
 P 9150 1850
 F 0 "R44" V 9230 1850 50  0000 C CNN
@@ -3148,7 +3116,7 @@ F 3 "" H 9150 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D128
+L Blinkers-rescue:D D128
 U 1 1 5AFA4EF2
 P 9550 1850
 F 0 "D128" H 9550 1950 50  0000 C CNN
@@ -3159,7 +3127,7 @@ F 3 "" H 9550 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D137
+L Blinkers-rescue:D D137
 U 1 1 5AFA4EF9
 P 9950 1850
 F 0 "D137" H 9950 1950 50  0000 C CNN
@@ -3170,7 +3138,7 @@ F 3 "" H 9950 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D139
+L Blinkers-rescue:D D139
 U 1 1 5AFA4F00
 P 10350 1850
 F 0 "D139" H 10350 1950 50  0000 C CNN
@@ -3189,7 +3157,7 @@ Wire Wire Line
 Text GLabel 9000 1850 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR020
+L Blinkers-rescue:GND #PWR020
 U 1 1 5AFA4F0B
 P 10500 1850
 F 0 "#PWR020" H 10500 1600 50  0001 C CNN
@@ -3200,7 +3168,7 @@ F 3 "" H 10500 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D148
+L Blinkers-rescue:LED D148
 U 1 1 5AFA68E8
 P 11350 2250
 F 0 "D148" H 11350 2350 50  0000 C CNN
@@ -3211,7 +3179,7 @@ F 3 "" H 11350 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D157
+L Blinkers-rescue:LED D157
 U 1 1 5AFA68EF
 P 11850 2250
 F 0 "D157" H 11850 2350 50  0000 C CNN
@@ -3222,7 +3190,7 @@ F 3 "" H 11850 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D167
+L Blinkers-rescue:LED D167
 U 1 1 5AFA68F6
 P 12350 2250
 F 0 "D167" H 12350 2350 50  0000 C CNN
@@ -3233,7 +3201,7 @@ F 3 "" H 12350 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D149
+L Blinkers-rescue:LED D149
 U 1 1 5AFA68FD
 P 11350 2650
 F 0 "D149" H 11350 2750 50  0000 C CNN
@@ -3244,7 +3212,7 @@ F 3 "" H 11350 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D158
+L Blinkers-rescue:LED D158
 U 1 1 5AFA6904
 P 11850 2650
 F 0 "D158" H 11850 2750 50  0000 C CNN
@@ -3255,7 +3223,7 @@ F 3 "" H 11850 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D168
+L Blinkers-rescue:LED D168
 U 1 1 5AFA690B
 P 12350 2650
 F 0 "D168" H 12350 2750 50  0000 C CNN
@@ -3266,7 +3234,7 @@ F 3 "" H 12350 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D173
+L Blinkers-rescue:LED D173
 U 1 1 5AFA6912
 P 12350 4750
 F 0 "D173" H 12350 4850 50  0000 C CNN
@@ -3277,7 +3245,7 @@ F 3 "" H 12350 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D163
+L Blinkers-rescue:LED D163
 U 1 1 5AFA6919
 P 11850 4750
 F 0 "D163" H 11850 4850 50  0000 C CNN
@@ -3288,7 +3256,7 @@ F 3 "" H 11850 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D154
+L Blinkers-rescue:LED D154
 U 1 1 5AFA6920
 P 11350 4750
 F 0 "D154" H 11350 4850 50  0000 C CNN
@@ -3299,7 +3267,7 @@ F 3 "" H 11350 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R51
+L Blinkers-rescue:R R51
 U 1 1 5AFA6927
 P 11050 2200
 F 0 "R51" V 11130 2200 50  0000 C CNN
@@ -3310,7 +3278,7 @@ F 3 "" H 11050 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R55
+L Blinkers-rescue:R R55
 U 1 1 5AFA692E
 P 11550 2200
 F 0 "R55" V 11630 2200 50  0000 C CNN
@@ -3321,7 +3289,7 @@ F 3 "" H 11550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R57
+L Blinkers-rescue:R R57
 U 1 1 5AFA6935
 P 12050 2200
 F 0 "R57" V 12130 2200 50  0000 C CNN
@@ -3332,7 +3300,7 @@ F 3 "" H 12050 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R50
+L Blinkers-rescue:R R50
 U 1 1 5AFA693C
 P 11000 4750
 F 0 "R50" V 11080 4750 50  0000 C CNN
@@ -3343,7 +3311,7 @@ F 3 "" H 11000 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Q_NMOS_DGS Q6
+L Blinkers-rescue:Q_NMOS_DGS Q6
 U 1 1 5AFA6943
 P 12650 5000
 F 0 "Q6" H 12850 5050 50  0000 L CNN
@@ -3354,7 +3322,7 @@ F 3 "" H 12650 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D150
+L Blinkers-rescue:LED D150
 U 1 1 5AFA694A
 P 11350 3050
 F 0 "D150" H 11350 3150 50  0000 C CNN
@@ -3365,7 +3333,7 @@ F 3 "" H 11350 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D159
+L Blinkers-rescue:LED D159
 U 1 1 5AFA6951
 P 11850 3050
 F 0 "D159" H 11850 3150 50  0000 C CNN
@@ -3376,7 +3344,7 @@ F 3 "" H 11850 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D169
+L Blinkers-rescue:LED D169
 U 1 1 5AFA6958
 P 12350 3050
 F 0 "D169" H 12350 3150 50  0000 C CNN
@@ -3387,7 +3355,7 @@ F 3 "" H 12350 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D151
+L Blinkers-rescue:LED D151
 U 1 1 5AFA695F
 P 11350 3550
 F 0 "D151" H 11350 3650 50  0000 C CNN
@@ -3398,7 +3366,7 @@ F 3 "" H 11350 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D160
+L Blinkers-rescue:LED D160
 U 1 1 5AFA6966
 P 11850 3550
 F 0 "D160" H 11850 3650 50  0000 C CNN
@@ -3409,7 +3377,7 @@ F 3 "" H 11850 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D170
+L Blinkers-rescue:LED D170
 U 1 1 5AFA696D
 P 12350 3550
 F 0 "D170" H 12350 3650 50  0000 C CNN
@@ -3420,7 +3388,7 @@ F 3 "" H 12350 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D152
+L Blinkers-rescue:LED D152
 U 1 1 5AFA6974
 P 11350 3950
 F 0 "D152" H 11350 4050 50  0000 C CNN
@@ -3431,7 +3399,7 @@ F 3 "" H 11350 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D161
+L Blinkers-rescue:LED D161
 U 1 1 5AFA697B
 P 11850 3950
 F 0 "D161" H 11850 4050 50  0000 C CNN
@@ -3442,7 +3410,7 @@ F 3 "" H 11850 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D171
+L Blinkers-rescue:LED D171
 U 1 1 5AFA6982
 P 12350 3950
 F 0 "D171" H 12350 4050 50  0000 C CNN
@@ -3453,7 +3421,7 @@ F 3 "" H 12350 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R52
+L Blinkers-rescue:R R52
 U 1 1 5AFA6989
 P 11050 3500
 F 0 "R52" V 11130 3500 50  0000 C CNN
@@ -3464,7 +3432,7 @@ F 3 "" H 11050 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R56
+L Blinkers-rescue:R R56
 U 1 1 5AFA6990
 P 11550 3500
 F 0 "R56" V 11630 3500 50  0000 C CNN
@@ -3475,7 +3443,7 @@ F 3 "" H 11550 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R58
+L Blinkers-rescue:R R58
 U 1 1 5AFA6997
 P 12050 3500
 F 0 "R58" V 12130 3500 50  0000 C CNN
@@ -3486,7 +3454,7 @@ F 3 "" H 12050 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D153
+L Blinkers-rescue:LED D153
 U 1 1 5AFA699E
 P 11350 4350
 F 0 "D153" H 11350 4450 50  0000 C CNN
@@ -3497,7 +3465,7 @@ F 3 "" H 11350 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D162
+L Blinkers-rescue:LED D162
 U 1 1 5AFA69A5
 P 11850 4350
 F 0 "D162" H 11850 4450 50  0000 C CNN
@@ -3508,7 +3476,7 @@ F 3 "" H 11850 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D172
+L Blinkers-rescue:LED D172
 U 1 1 5AFA69AC
 P 12350 4350
 F 0 "D172" H 12350 4450 50  0000 C CNN
@@ -3557,7 +3525,7 @@ Wire Wire Line
 Wire Wire Line
 	11350 3200 11350 3250
 Wire Wire Line
-	11350 3250 12550 3250
+	11350 3250 11850 3250
 Wire Wire Line
 	11850 3250 11850 3200
 Wire Wire Line
@@ -3602,14 +3570,14 @@ Wire Wire Line
 Wire Wire Line
 	11350 4500 11350 4550
 Wire Wire Line
-	11350 4550 12550 4550
+	11350 4550 11850 4550
 Wire Wire Line
 	11850 4550 11850 4500
 Wire Wire Line
 	12350 4550 12350 4500
 Connection ~ 11850 4550
 Wire Wire Line
-	10950 2050 10950 4650
+	10950 2050 10950 3350
 Connection ~ 11050 3350
 Connection ~ 11050 2050
 Wire Wire Line
@@ -3624,7 +3592,7 @@ Wire Wire Line
 	10850 4650 10850 4750
 Connection ~ 10950 3350
 Wire Wire Line
-	12550 3250 12550 4800
+	12550 3250 12550 4550
 Wire Wire Line
 	12550 4750 12500 4750
 Connection ~ 12350 3250
@@ -3632,15 +3600,15 @@ Connection ~ 12550 4550
 Connection ~ 12350 4550
 Connection ~ 12550 4750
 Wire Wire Line
-	10950 3350 12050 3350
+	10950 3350 11050 3350
 Connection ~ 11550 3350
 Wire Wire Line
-	10950 2050 12050 2050
+	10950 2050 11050 2050
 Connection ~ 11550 2050
 Text GLabel 10950 2050 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR021
+L Blinkers-rescue:GND #PWR021
 U 1 1 5AFA69F5
 P 12550 5200
 F 0 "#PWR021" H 12550 4950 50  0001 C CNN
@@ -3651,7 +3619,7 @@ F 3 "" H 12550 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R54
+L Blinkers-rescue:R R54
 U 1 1 5AFA69FB
 P 11150 5600
 F 0 "R54" V 11230 5600 50  0000 C CNN
@@ -3662,7 +3630,7 @@ F 3 "" H 11150 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D156
+L Blinkers-rescue:D D156
 U 1 1 5AFA6A02
 P 11550 5600
 F 0 "D156" H 11550 5700 50  0000 C CNN
@@ -3673,7 +3641,7 @@ F 3 "" H 11550 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D165
+L Blinkers-rescue:D D165
 U 1 1 5AFA6A09
 P 11950 5600
 F 0 "D165" H 11950 5700 50  0000 C CNN
@@ -3684,7 +3652,7 @@ F 3 "" H 11950 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D174
+L Blinkers-rescue:D D174
 U 1 1 5AFA6A10
 P 12350 5600
 F 0 "D174" H 12350 5700 50  0000 C CNN
@@ -3703,7 +3671,7 @@ Wire Wire Line
 Text GLabel 11000 5600 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR022
+L Blinkers-rescue:GND #PWR022
 U 1 1 5AFA6A1B
 P 12500 5600
 F 0 "#PWR022" H 12500 5350 50  0001 C CNN
@@ -3714,7 +3682,7 @@ F 3 "" H 12500 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R53
+L Blinkers-rescue:R R53
 U 1 1 5AFA6A21
 P 11100 1850
 F 0 "R53" V 11180 1850 50  0000 C CNN
@@ -3725,7 +3693,7 @@ F 3 "" H 11100 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D155
+L Blinkers-rescue:D D155
 U 1 1 5AFA6A28
 P 11500 1850
 F 0 "D155" H 11500 1950 50  0000 C CNN
@@ -3736,7 +3704,7 @@ F 3 "" H 11500 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D164
+L Blinkers-rescue:D D164
 U 1 1 5AFA6A2F
 P 11900 1850
 F 0 "D164" H 11900 1950 50  0000 C CNN
@@ -3747,7 +3715,7 @@ F 3 "" H 11900 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D166
+L Blinkers-rescue:D D166
 U 1 1 5AFA6A36
 P 12300 1850
 F 0 "D166" H 12300 1950 50  0000 C CNN
@@ -3766,7 +3734,7 @@ Wire Wire Line
 Text GLabel 10950 1850 0    60   Input ~ 0
 12V
 $Comp
-L GND #PWR023
+L Blinkers-rescue:GND #PWR023
 U 1 1 5AFA6A41
 P 12450 1850
 F 0 "#PWR023" H 12450 1600 50  0001 C CNN
@@ -3777,7 +3745,7 @@ F 3 "" H 12450 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x01 J8
+L Blinkers-rescue:Conn_01x01 J8
 U 1 1 5AFAC75C
 P 10900 5200
 F 0 "J8" H 10900 5300 50  0000 C CNN
@@ -3788,7 +3756,7 @@ F 3 "" H 10900 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 J7
+L Blinkers-rescue:Conn_01x01 J7
 U 1 1 5AFAD89E
 P 8950 5200
 F 0 "J7" H 8950 5300 50  0000 C CNN
@@ -3799,7 +3767,7 @@ F 3 "" H 8950 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x01 J6
+L Blinkers-rescue:Conn_01x01 J6
 U 1 1 5AFADCB8
 P 7000 5200
 F 0 "J6" H 7000 5300 50  0000 C CNN
@@ -3809,4 +3777,136 @@ F 3 "" H 7000 5200 50  0001 C CNN
 	1    7000 5200
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2100 3250 2600 3250
+Wire Wire Line
+	2100 4550 2600 4550
+Wire Wire Line
+	1300 3350 1800 3350
+Wire Wire Line
+	1300 2050 1800 2050
+Wire Wire Line
+	1200 3350 1200 4650
+Wire Wire Line
+	2600 3250 2800 3250
+Wire Wire Line
+	2800 4550 2800 4750
+Wire Wire Line
+	2600 4550 2800 4550
+Wire Wire Line
+	2800 4750 2800 4800
+Wire Wire Line
+	1800 3350 2300 3350
+Wire Wire Line
+	1800 2050 2300 2050
+Wire Wire Line
+	4100 3250 4600 3250
+Wire Wire Line
+	4100 4550 4600 4550
+Wire Wire Line
+	3300 3350 3800 3350
+Wire Wire Line
+	3300 2050 3800 2050
+Wire Wire Line
+	3200 3350 3200 4650
+Wire Wire Line
+	4600 3250 4800 3250
+Wire Wire Line
+	4800 4550 4800 4750
+Wire Wire Line
+	4600 4550 4800 4550
+Wire Wire Line
+	4800 4750 4800 4800
+Wire Wire Line
+	3800 3350 4300 3350
+Wire Wire Line
+	3800 2050 4300 2050
+Wire Wire Line
+	6000 3250 6500 3250
+Wire Wire Line
+	6000 4550 6500 4550
+Wire Wire Line
+	5200 3350 5700 3350
+Wire Wire Line
+	5200 2050 5700 2050
+Wire Wire Line
+	5100 3350 5100 4650
+Wire Wire Line
+	6500 3250 6700 3250
+Wire Wire Line
+	6700 4550 6700 4750
+Wire Wire Line
+	6500 4550 6700 4550
+Wire Wire Line
+	6700 4750 6700 4800
+Wire Wire Line
+	5700 3350 6200 3350
+Wire Wire Line
+	5700 2050 6200 2050
+Wire Wire Line
+	7950 3250 8450 3250
+Wire Wire Line
+	7950 4550 8450 4550
+Wire Wire Line
+	7150 3350 7650 3350
+Wire Wire Line
+	7150 2050 7650 2050
+Wire Wire Line
+	7050 3350 7050 4650
+Wire Wire Line
+	8450 3250 8650 3250
+Wire Wire Line
+	8650 4550 8650 4750
+Wire Wire Line
+	8450 4550 8650 4550
+Wire Wire Line
+	8650 4750 8650 4800
+Wire Wire Line
+	7650 3350 8150 3350
+Wire Wire Line
+	7650 2050 8150 2050
+Wire Wire Line
+	9900 3250 10400 3250
+Wire Wire Line
+	9900 4550 10400 4550
+Wire Wire Line
+	9100 3350 9600 3350
+Wire Wire Line
+	9100 2050 9600 2050
+Wire Wire Line
+	9000 3350 9000 4650
+Wire Wire Line
+	10400 3250 10600 3250
+Wire Wire Line
+	10600 4550 10600 4750
+Wire Wire Line
+	10400 4550 10600 4550
+Wire Wire Line
+	10600 4750 10600 4800
+Wire Wire Line
+	9600 3350 10100 3350
+Wire Wire Line
+	9600 2050 10100 2050
+Wire Wire Line
+	11850 3250 12350 3250
+Wire Wire Line
+	11850 4550 12350 4550
+Wire Wire Line
+	11050 3350 11550 3350
+Wire Wire Line
+	11050 2050 11550 2050
+Wire Wire Line
+	10950 3350 10950 4650
+Wire Wire Line
+	12350 3250 12550 3250
+Wire Wire Line
+	12550 4550 12550 4750
+Wire Wire Line
+	12350 4550 12550 4550
+Wire Wire Line
+	12550 4750 12550 4800
+Wire Wire Line
+	11550 3350 12050 3350
+Wire Wire Line
+	11550 2050 12050 2050
 $EndSCHEMATC

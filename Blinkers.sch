@@ -466,13 +466,13 @@ Connection ~ 1800 2050
 $Comp
 L Blinkers-rescue:Conn_01x01 J1
 U 1 1 5A8E4E03
-P 800 1300
-F 0 "J1" H 800 1400 50  0000 C CNN
-F 1 "12V" H 800 1200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 800 1300 50  0001 C CNN
-F 3 "" H 800 1300 50  0001 C CNN
-	1    800  1300
-	0    -1   -1   0   
+P 6900 3400
+F 0 "J1" H 6900 3500 50  0000 C CNN
+F 1 "12V" H 6900 3300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:Conn_01x01 J2
@@ -488,28 +488,28 @@ $EndComp
 $Comp
 L Blinkers-rescue:Conn_01x01 J3
 U 1 1 5A8E5EA7
-P 1350 1550
-F 0 "J3" H 1350 1650 50  0000 C CNN
-F 1 "gnd" H 1350 1450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1350 1550 50  0001 C CNN
-F 3 "" H 1350 1550 50  0001 C CNN
-	1    1350 1550
-	1    0    0    -1  
+P 6900 3550
+F 0 "J3" H 6900 3650 50  0000 C CNN
+F 1 "gnd" H 6900 3450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6900 3550 50  0001 C CNN
+F 3 "" H 6900 3550 50  0001 C CNN
+	1    6900 3550
+	0    -1   -1   0   
 $EndComp
-Text GLabel 800  1500 3    60   Input ~ 0
+Text GLabel 6900 3200 1    60   Input ~ 0
 12V
 Text GLabel 1200 2050 0    60   Input ~ 0
 12V
 $Comp
 L Blinkers-rescue:GND #PWR02
 U 1 1 5A8E6C65
-P 1150 1550
-F 0 "#PWR02" H 1150 1300 50  0001 C CNN
-F 1 "GND" H 1150 1400 50  0000 C CNN
-F 2 "" H 1150 1550 50  0001 C CNN
-F 3 "" H 1150 1550 50  0001 C CNN
-	1    1150 1550
-	0    1    1    0   
+P 6900 3750
+F 0 "#PWR02" H 6900 3500 50  0001 C CNN
+F 1 "GND" H 6900 3600 50  0000 C CNN
+F 2 "" H 6900 3750 50  0001 C CNN
+F 3 "" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:LED D34
