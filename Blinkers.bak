@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Blinkers-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -466,13 +466,13 @@ Connection ~ 1800 2050
 $Comp
 L Blinkers-rescue:Conn_01x01 J1
 U 1 1 5A8E4E03
-P 800 1300
-F 0 "J1" H 800 1400 50  0000 C CNN
-F 1 "12V" H 800 1200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 800 1300 50  0001 C CNN
-F 3 "" H 800 1300 50  0001 C CNN
-	1    800  1300
-	0    -1   -1   0   
+P 6900 3400
+F 0 "J1" H 6900 3500 50  0000 C CNN
+F 1 "12V" H 6900 3300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:Conn_01x01 J2
@@ -488,28 +488,28 @@ $EndComp
 $Comp
 L Blinkers-rescue:Conn_01x01 J3
 U 1 1 5A8E5EA7
-P 1350 1550
-F 0 "J3" H 1350 1650 50  0000 C CNN
-F 1 "gnd" H 1350 1450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1350 1550 50  0001 C CNN
-F 3 "" H 1350 1550 50  0001 C CNN
-	1    1350 1550
-	1    0    0    -1  
+P 6900 3550
+F 0 "J3" H 6900 3650 50  0000 C CNN
+F 1 "gnd" H 6900 3450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6900 3550 50  0001 C CNN
+F 3 "" H 6900 3550 50  0001 C CNN
+	1    6900 3550
+	0    -1   -1   0   
 $EndComp
-Text GLabel 800  1500 3    60   Input ~ 0
+Text GLabel 6900 3200 1    60   Input ~ 0
 12V
 Text GLabel 1200 2050 0    60   Input ~ 0
 12V
 $Comp
 L Blinkers-rescue:GND #PWR02
 U 1 1 5A8E6C65
-P 1150 1550
-F 0 "#PWR02" H 1150 1300 50  0001 C CNN
-F 1 "GND" H 1150 1400 50  0000 C CNN
-F 2 "" H 1150 1550 50  0001 C CNN
-F 3 "" H 1150 1550 50  0001 C CNN
-	1    1150 1550
-	0    1    1    0   
+P 6900 3750
+F 0 "#PWR02" H 6900 3500 50  0001 C CNN
+F 1 "GND" H 6900 3600 50  0000 C CNN
+F 2 "" H 6900 3750 50  0001 C CNN
+F 3 "" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:LED D34
@@ -1387,8 +1387,6 @@ Wire Wire Line
 	5000 4650 5000 4750
 Connection ~ 5100 3350
 Wire Wire Line
-	6700 3250 6700 4550
-Wire Wire Line
 	6700 4750 6650 4750
 Connection ~ 6500 3250
 Connection ~ 6700 4550
@@ -1473,7 +1471,7 @@ Wire Wire Line
 Wire Wire Line
 	800  2750 800  3250
 Text GLabel 800  2050 1    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR05
 U 1 1 5AF4F339
@@ -1483,7 +1481,7 @@ F 1 "GND" H 800 3400 50  0000 C CNN
 F 2 "" H 800 3550 50  0001 C CNN
 F 3 "" H 800 3550 50  0001 C CNN
 	1    800  3550
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:R R9
@@ -1523,7 +1521,7 @@ Wire Wire Line
 Wire Wire Line
 	800  4700 800  5200
 Text GLabel 800  4000 1    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR06
 U 1 1 5AF4F940
@@ -1586,7 +1584,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 5600 2450 5600
 Text GLabel 1250 5600 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR07
 U 1 1 5AF50168
@@ -1596,7 +1594,7 @@ F 1 "GND" H 2750 5450 50  0000 C CNN
 F 2 "" H 2750 5600 50  0001 C CNN
 F 3 "" H 2750 5600 50  0001 C CNN
 	1    2750 5600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:R R16
@@ -1649,7 +1647,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 5600 4400 5600
 Text GLabel 3200 5600 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR08
 U 1 1 5AF50C2B
@@ -1659,7 +1657,7 @@ F 1 "GND" H 4700 5450 50  0000 C CNN
 F 2 "" H 4700 5600 50  0001 C CNN
 F 3 "" H 4700 5600 50  0001 C CNN
 	1    4700 5600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:R R25
@@ -1711,8 +1709,6 @@ Wire Wire Line
 	5850 5600 5950 5600
 Wire Wire Line
 	6250 5600 6350 5600
-Text GLabel 5150 5600 0    60   Input ~ 0
-12V
 $Comp
 L Blinkers-rescue:GND #PWR09
 U 1 1 5AF50E2D
@@ -1722,7 +1718,7 @@ F 1 "GND" H 6650 5450 50  0000 C CNN
 F 2 "" H 6650 5600 50  0001 C CNN
 F 3 "" H 6650 5600 50  0001 C CNN
 	1    6650 5600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:R R10
@@ -1775,7 +1771,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 1850 2400 1850
 Text GLabel 1200 1850 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR010
 U 1 1 5AF51F02
@@ -1785,7 +1781,7 @@ F 1 "GND" H 2700 1700 50  0000 C CNN
 F 2 "" H 2700 1850 50  0001 C CNN
 F 3 "" H 2700 1850 50  0001 C CNN
 	1    2700 1850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:R R13
@@ -1838,7 +1834,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 1850 4350 1850
 Text GLabel 3150 1850 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR011
 U 1 1 5AF51F28
@@ -1848,7 +1844,7 @@ F 1 "GND" H 4650 1700 50  0000 C CNN
 F 2 "" H 4650 1850 50  0001 C CNN
 F 3 "" H 4650 1850 50  0001 C CNN
 	1    4650 1850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:R R24
@@ -1901,7 +1897,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 1850 6300 1850
 Text GLabel 5100 1850 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR012
 U 1 1 5AF51F4E
@@ -1911,7 +1907,7 @@ F 1 "GND" H 6600 1700 50  0000 C CNN
 F 2 "" H 6600 1850 50  0001 C CNN
 F 3 "" H 6600 1850 50  0001 C CNN
 	1    6600 1850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:R R30
@@ -1951,7 +1947,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 2700 13150 3200
 Text GLabel 13150 2000 1    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR013
 U 1 1 5AF52CC2
@@ -1961,7 +1957,7 @@ F 1 "GND" H 13150 3350 50  0000 C CNN
 F 2 "" H 13150 3500 50  0001 C CNN
 F 3 "" H 13150 3500 50  0001 C CNN
 	1    13150 3500
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:R R31
@@ -2001,7 +1997,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 4650 13150 5150
 Text GLabel 13150 3950 1    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR014
 U 1 1 5AF52CE8
@@ -2515,7 +2511,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 5600 8300 5600
 Text GLabel 7100 5600 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR016
 U 1 1 5AFA07BD
@@ -2525,7 +2521,7 @@ F 1 "GND" H 8600 5450 50  0000 C CNN
 F 2 "" H 8600 5600 50  0001 C CNN
 F 3 "" H 8600 5600 50  0001 C CNN
 	1    8600 5600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:R R35
@@ -2578,7 +2574,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 1850 8250 1850
 Text GLabel 7050 1850 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR017
 U 1 1 5AFA07E3
@@ -2588,7 +2584,7 @@ F 1 "GND" H 8550 1700 50  0000 C CNN
 F 2 "" H 8550 1850 50  0001 C CNN
 F 3 "" H 8550 1850 50  0001 C CNN
 	1    8550 1850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:LED D121
@@ -3092,7 +3088,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 5600 10250 5600
 Text GLabel 9050 5600 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR019
 U 1 1 5AFA4EE5
@@ -3102,7 +3098,7 @@ F 1 "GND" H 10550 5450 50  0000 C CNN
 F 2 "" H 10550 5600 50  0001 C CNN
 F 3 "" H 10550 5600 50  0001 C CNN
 	1    10550 5600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:R R44
@@ -3155,7 +3151,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 1850 10200 1850
 Text GLabel 9000 1850 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR020
 U 1 1 5AFA4F0B
@@ -3165,7 +3161,7 @@ F 1 "GND" H 10500 1700 50  0000 C CNN
 F 2 "" H 10500 1850 50  0001 C CNN
 F 3 "" H 10500 1850 50  0001 C CNN
 	1    10500 1850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Blinkers-rescue:LED D148
@@ -3668,8 +3664,6 @@ Wire Wire Line
 	11700 5600 11800 5600
 Wire Wire Line
 	12100 5600 12200 5600
-Text GLabel 11000 5600 0    60   Input ~ 0
-12V
 $Comp
 L Blinkers-rescue:GND #PWR022
 U 1 1 5AFA6A1B
@@ -3732,7 +3726,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 1850 12150 1850
 Text GLabel 10950 1850 0    60   Input ~ 0
-12V
+Brake
 $Comp
 L Blinkers-rescue:GND #PWR023
 U 1 1 5AFA6A41
@@ -3909,4 +3903,23 @@ Wire Wire Line
 	11550 3350 12050 3350
 Wire Wire Line
 	11550 2050 12050 2050
+$Comp
+L Blinkers-rescue:Conn_01x01 J9
+U 1 1 5D378863
+P 6900 2900
+F 0 "J9" V 6772 2980 50  0000 L CNN
+F 1 "Conn_01x01" V 6863 2980 50  0000 L CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6900 2900 50  0001 C CNN
+F 3 "" H 6900 2900 50  0001 C CNN
+	1    6900 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 3250 6700 4550
+Text GLabel 6900 2700 1    50   Input ~ 0
+Brake
+Text GLabel 5150 5600 0    60   Input ~ 0
+Brake
+Text GLabel 11000 5600 0    60   Input ~ 0
+Brake
 $EndSCHEMATC
