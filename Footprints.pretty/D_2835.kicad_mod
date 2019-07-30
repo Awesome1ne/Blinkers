@@ -1,4 +1,5 @@
-(module Footprints:D_2835 placed (layer F.Cu) (tedit 5D2247A0)
+(module D_2835 placed (layer F.Cu) (tedit 5D3FB302)
+  (attr smd)
   (fp_text reference D93 (at 0 2.54) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.0625)))
   )
