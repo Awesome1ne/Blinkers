@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Blinkers-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -3509,7 +3509,7 @@ L Blinkers-rescue:Conn_01x01 J9
 U 1 1 5D378863
 P 6900 2900
 F 0 "J9" V 6772 2980 50  0000 L CNN
-F 1 "Conn_01x01" V 6863 2980 50  0000 L CNN
+F 1 "brake" V 6863 2980 50  0000 L CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6900 2900 50  0001 C CNN
 F 3 "" H 6900 2900 50  0001 C CNN
 	1    6900 2900

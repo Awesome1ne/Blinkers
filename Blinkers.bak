@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Blinkers-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -81,39 +81,6 @@ F 3 "" H 2600 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Blinkers-rescue:LED D21
-U 1 1 5A8DF395
-P 2600 4750
-F 0 "D21" H 2600 4850 50  0000 C CNN
-F 1 "LED" H 2600 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 2600 4750 50  0001 C CNN
-F 3 "" H 2600 4750 50  0001 C CNN
-	1    2600 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D14
-U 1 1 5A8DF39B
-P 2100 4750
-F 0 "D14" H 2100 4850 50  0000 C CNN
-F 1 "LED" H 2100 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 2100 4750 50  0001 C CNN
-F 3 "" H 2100 4750 50  0001 C CNN
-	1    2100 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D7
-U 1 1 5A8DF3A1
-P 1600 4750
-F 0 "D7" H 1600 4850 50  0000 C CNN
-F 1 "LED" H 1600 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 1600 4750 50  0001 C CNN
-F 3 "" H 1600 4750 50  0001 C CNN
-	1    1600 4750
-	-1   0    0    1   
-$EndComp
-$Comp
 L Blinkers-rescue:R R2
 U 1 1 5A8DF790
 P 1300 2200
@@ -145,17 +112,6 @@ F 2 "Resistors_SMD:R_1206" V 2230 2200 50  0001 C CNN
 F 3 "" H 2300 2200 50  0001 C CNN
 	1    2300 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Blinkers-rescue:R R1
-U 1 1 5A8DF8C3
-P 1250 4750
-F 0 "R1" V 1330 4750 50  0000 C CNN
-F 1 "145" V 1250 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 1180 4750 50  0001 C CNN
-F 3 "" H 1250 4750 50  0001 C CNN
-	1    1250 4750
-	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:Q_NMOS_DGS Q1
@@ -360,11 +316,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 2400 1600 2500
 Wire Wire Line
-	1600 2800 1600 2900
-Wire Wire Line
 	2100 2400 2100 2500
-Wire Wire Line
-	2100 2800 2100 2900
 Wire Wire Line
 	2600 2400 2600 2500
 Wire Wire Line
@@ -428,24 +380,10 @@ Wire Wire Line
 Connection ~ 1300 3350
 Connection ~ 1300 2050
 Wire Wire Line
-	1400 4750 1450 4750
-Wire Wire Line
-	1750 4750 1950 4750
-Wire Wire Line
-	2250 4750 2450 4750
-Wire Wire Line
-	1200 4650 1100 4650
-Wire Wire Line
-	1100 4650 1100 4750
-Connection ~ 1200 3350
-Wire Wire Line
 	2800 3250 2800 4550
-Wire Wire Line
-	2800 4750 2750 4750
 Connection ~ 2600 3250
 Connection ~ 2800 4550
 Connection ~ 2600 4550
-Connection ~ 2800 4750
 $Comp
 L Blinkers-rescue:GND #PWR01
 U 1 1 5A8E2F2A
@@ -578,39 +516,6 @@ F 3 "" H 4600 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Blinkers-rescue:LED D60
-U 1 1 5AF4A8EB
-P 4600 4750
-F 0 "D60" H 4600 4850 50  0000 C CNN
-F 1 "LED" H 4600 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 4600 4750 50  0001 C CNN
-F 3 "" H 4600 4750 50  0001 C CNN
-	1    4600 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D50
-U 1 1 5AF4A8F2
-P 4100 4750
-F 0 "D50" H 4100 4850 50  0000 C CNN
-F 1 "LED" H 4100 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 4100 4750 50  0001 C CNN
-F 3 "" H 4100 4750 50  0001 C CNN
-	1    4100 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D40
-U 1 1 5AF4A8F9
-P 3600 4750
-F 0 "D40" H 3600 4850 50  0000 C CNN
-F 1 "LED" H 3600 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 3600 4750 50  0001 C CNN
-F 3 "" H 3600 4750 50  0001 C CNN
-	1    3600 4750
-	-1   0    0    1   
-$EndComp
-$Comp
 L Blinkers-rescue:R R14
 U 1 1 5AF4A900
 P 3300 2200
@@ -642,17 +547,6 @@ F 2 "Resistors_SMD:R_1206" V 4230 2200 50  0001 C CNN
 F 3 "" H 4300 2200 50  0001 C CNN
 	1    4300 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Blinkers-rescue:R R12
-U 1 1 5AF4A915
-P 3250 4750
-F 0 "R12" V 3330 4750 50  0000 C CNN
-F 1 "145" V 3250 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 3180 4750 50  0001 C CNN
-F 3 "" H 3250 4750 50  0001 C CNN
-	1    3250 4750
-	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:Q_NMOS_DGS Q2
@@ -925,24 +819,10 @@ Wire Wire Line
 Connection ~ 3300 3350
 Connection ~ 3300 2050
 Wire Wire Line
-	3400 4750 3450 4750
-Wire Wire Line
-	3750 4750 3950 4750
-Wire Wire Line
-	4250 4750 4450 4750
-Wire Wire Line
-	3200 4650 3100 4650
-Wire Wire Line
-	3100 4650 3100 4750
-Connection ~ 3200 3350
-Wire Wire Line
 	4800 3250 4800 4550
-Wire Wire Line
-	4800 4750 4750 4750
 Connection ~ 4600 3250
 Connection ~ 4800 4550
 Connection ~ 4600 4550
-Connection ~ 4800 4750
 Wire Wire Line
 	3200 3350 3300 3350
 Connection ~ 3800 3350
@@ -1029,39 +909,6 @@ F 3 "" H 6500 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Blinkers-rescue:LED D86
-U 1 1 5AF4B43F
-P 6500 4750
-F 0 "D86" H 6500 4850 50  0000 C CNN
-F 1 "LED" H 6500 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 6500 4750 50  0001 C CNN
-F 3 "" H 6500 4750 50  0001 C CNN
-	1    6500 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D76
-U 1 1 5AF4B446
-P 6000 4750
-F 0 "D76" H 6000 4850 50  0000 C CNN
-F 1 "LED" H 6000 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 6000 4750 50  0001 C CNN
-F 3 "" H 6000 4750 50  0001 C CNN
-	1    6000 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D67
-U 1 1 5AF4B44D
-P 5500 4750
-F 0 "D67" H 5500 4850 50  0000 C CNN
-F 1 "LED" H 5500 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 5500 4750 50  0001 C CNN
-F 3 "" H 5500 4750 50  0001 C CNN
-	1    5500 4750
-	-1   0    0    1   
-$EndComp
-$Comp
 L Blinkers-rescue:R R22
 U 1 1 5AF4B454
 P 5200 2200
@@ -1093,17 +940,6 @@ F 2 "Resistors_SMD:R_1206" V 6130 2200 50  0001 C CNN
 F 3 "" H 6200 2200 50  0001 C CNN
 	1    6200 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Blinkers-rescue:R R21
-U 1 1 5AF4B469
-P 5150 4750
-F 0 "R21" V 5230 4750 50  0000 C CNN
-F 1 "145" V 5150 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 5080 4750 50  0001 C CNN
-F 3 "" H 5150 4750 50  0001 C CNN
-	1    5150 4750
-	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:Q_NMOS_DGS Q3
@@ -1375,23 +1211,9 @@ Wire Wire Line
 	5100 2050 5100 3350
 Connection ~ 5200 3350
 Connection ~ 5200 2050
-Wire Wire Line
-	5300 4750 5350 4750
-Wire Wire Line
-	5650 4750 5850 4750
-Wire Wire Line
-	6150 4750 6350 4750
-Wire Wire Line
-	5100 4650 5000 4650
-Wire Wire Line
-	5000 4650 5000 4750
-Connection ~ 5100 3350
-Wire Wire Line
-	6700 4750 6650 4750
 Connection ~ 6500 3250
 Connection ~ 6700 4550
 Connection ~ 6500 4550
-Connection ~ 6700 4750
 Wire Wire Line
 	5100 3350 5200 3350
 Connection ~ 5700 3350
@@ -2076,39 +1898,6 @@ F 3 "" H 8450 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Blinkers-rescue:LED D119
-U 1 1 5AFA06B4
-P 8450 4750
-F 0 "D119" H 8450 4850 50  0000 C CNN
-F 1 "LED" H 8450 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 8450 4750 50  0001 C CNN
-F 3 "" H 8450 4750 50  0001 C CNN
-	1    8450 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D109
-U 1 1 5AFA06BB
-P 7950 4750
-F 0 "D109" H 7950 4850 50  0000 C CNN
-F 1 "LED" H 7950 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 7950 4750 50  0001 C CNN
-F 3 "" H 7950 4750 50  0001 C CNN
-	1    7950 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D100
-U 1 1 5AFA06C2
-P 7450 4750
-F 0 "D100" H 7450 4850 50  0000 C CNN
-F 1 "LED" H 7450 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 7450 4750 50  0001 C CNN
-F 3 "" H 7450 4750 50  0001 C CNN
-	1    7450 4750
-	-1   0    0    1   
-$EndComp
-$Comp
 L Blinkers-rescue:R R33
 U 1 1 5AFA06C9
 P 7150 2200
@@ -2140,28 +1929,6 @@ F 2 "Resistors_SMD:R_1206" V 8080 2200 50  0001 C CNN
 F 3 "" H 8150 2200 50  0001 C CNN
 	1    8150 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Blinkers-rescue:R R32
-U 1 1 5AFA06DE
-P 7100 4750
-F 0 "R32" V 7180 4750 50  0000 C CNN
-F 1 "145" V 7100 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 7030 4750 50  0001 C CNN
-F 3 "" H 7100 4750 50  0001 C CNN
-	1    7100 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L Blinkers-rescue:Q_NMOS_DGS Q4
-U 1 1 5AFA06E5
-P 8750 5000
-F 0 "Q4" H 8950 5050 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 8950 4950 50  0000 L CNN
-F 2 "Footprints:CUSTOM_Socket_Strip_Straight_1x03_Pitch0.09in" H 8950 5100 50  0001 C CNN
-F 3 "" H 8750 5000 50  0001 C CNN
-	1    8750 5000
-	-1   0    0    1   
 $EndComp
 $Comp
 L Blinkers-rescue:LED D96
@@ -2423,24 +2190,10 @@ Wire Wire Line
 Connection ~ 7150 3350
 Connection ~ 7150 2050
 Wire Wire Line
-	7250 4750 7300 4750
-Wire Wire Line
-	7600 4750 7800 4750
-Wire Wire Line
-	8100 4750 8300 4750
-Wire Wire Line
-	7050 4650 6950 4650
-Wire Wire Line
-	6950 4650 6950 4750
-Connection ~ 7050 3350
-Wire Wire Line
 	8650 3250 8650 4550
-Wire Wire Line
-	8650 4750 8600 4750
 Connection ~ 8450 3250
 Connection ~ 8650 4550
 Connection ~ 8450 4550
-Connection ~ 8650 4750
 Wire Wire Line
 	7050 3350 7150 3350
 Connection ~ 7650 3350
@@ -2653,39 +2406,6 @@ F 3 "" H 10400 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Blinkers-rescue:LED D146
-U 1 1 5AFA4DDC
-P 10400 4750
-F 0 "D146" H 10400 4850 50  0000 C CNN
-F 1 "LED" H 10400 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 10400 4750 50  0001 C CNN
-F 3 "" H 10400 4750 50  0001 C CNN
-	1    10400 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D136
-U 1 1 5AFA4DE3
-P 9900 4750
-F 0 "D136" H 9900 4850 50  0000 C CNN
-F 1 "LED" H 9900 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 9900 4750 50  0001 C CNN
-F 3 "" H 9900 4750 50  0001 C CNN
-	1    9900 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D127
-U 1 1 5AFA4DEA
-P 9400 4750
-F 0 "D127" H 9400 4850 50  0000 C CNN
-F 1 "LED" H 9400 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 9400 4750 50  0001 C CNN
-F 3 "" H 9400 4750 50  0001 C CNN
-	1    9400 4750
-	-1   0    0    1   
-$EndComp
-$Comp
 L Blinkers-rescue:R R42
 U 1 1 5AFA4DF1
 P 9100 2200
@@ -2717,17 +2437,6 @@ F 2 "Resistors_SMD:R_1206" V 10030 2200 50  0001 C CNN
 F 3 "" H 10100 2200 50  0001 C CNN
 	1    10100 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Blinkers-rescue:R R41
-U 1 1 5AFA4E06
-P 9050 4750
-F 0 "R41" V 9130 4750 50  0000 C CNN
-F 1 "145" V 9050 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 8980 4750 50  0001 C CNN
-F 3 "" H 9050 4750 50  0001 C CNN
-	1    9050 4750
-	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:Q_NMOS_DGS Q5
@@ -3000,24 +2709,10 @@ Wire Wire Line
 Connection ~ 9100 3350
 Connection ~ 9100 2050
 Wire Wire Line
-	9200 4750 9250 4750
-Wire Wire Line
-	9550 4750 9750 4750
-Wire Wire Line
-	10050 4750 10250 4750
-Wire Wire Line
-	9000 4650 8900 4650
-Wire Wire Line
-	8900 4650 8900 4750
-Connection ~ 9000 3350
-Wire Wire Line
 	10600 3250 10600 4550
-Wire Wire Line
-	10600 4750 10550 4750
 Connection ~ 10400 3250
 Connection ~ 10600 4550
 Connection ~ 10400 4550
-Connection ~ 10600 4750
 Wire Wire Line
 	9000 3350 9100 3350
 Connection ~ 9600 3350
@@ -3230,39 +2925,6 @@ F 3 "" H 12350 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Blinkers-rescue:LED D173
-U 1 1 5AFA6912
-P 12350 4750
-F 0 "D173" H 12350 4850 50  0000 C CNN
-F 1 "LED" H 12350 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 12350 4750 50  0001 C CNN
-F 3 "" H 12350 4750 50  0001 C CNN
-	1    12350 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D163
-U 1 1 5AFA6919
-P 11850 4750
-F 0 "D163" H 11850 4850 50  0000 C CNN
-F 1 "LED" H 11850 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 11850 4750 50  0001 C CNN
-F 3 "" H 11850 4750 50  0001 C CNN
-	1    11850 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Blinkers-rescue:LED D154
-U 1 1 5AFA6920
-P 11350 4750
-F 0 "D154" H 11350 4850 50  0000 C CNN
-F 1 "LED" H 11350 4650 50  0000 C CNN
-F 2 "Footprints:D_2835" H 11350 4750 50  0001 C CNN
-F 3 "" H 11350 4750 50  0001 C CNN
-	1    11350 4750
-	-1   0    0    1   
-$EndComp
-$Comp
 L Blinkers-rescue:R R51
 U 1 1 5AFA6927
 P 11050 2200
@@ -3294,17 +2956,6 @@ F 2 "Resistors_SMD:R_1206" V 11980 2200 50  0001 C CNN
 F 3 "" H 12050 2200 50  0001 C CNN
 	1    12050 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Blinkers-rescue:R R50
-U 1 1 5AFA693C
-P 11000 4750
-F 0 "R50" V 11080 4750 50  0000 C CNN
-F 1 "145" V 11000 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 10930 4750 50  0001 C CNN
-F 3 "" H 11000 4750 50  0001 C CNN
-	1    11000 4750
-	0    1    1    0   
 $EndComp
 $Comp
 L Blinkers-rescue:Q_NMOS_DGS Q6
@@ -3577,24 +3228,10 @@ Wire Wire Line
 Connection ~ 11050 3350
 Connection ~ 11050 2050
 Wire Wire Line
-	11150 4750 11200 4750
-Wire Wire Line
-	11500 4750 11700 4750
-Wire Wire Line
-	12000 4750 12200 4750
-Wire Wire Line
-	10950 4650 10850 4650
-Wire Wire Line
-	10850 4650 10850 4750
-Connection ~ 10950 3350
-Wire Wire Line
 	12550 3250 12550 4550
-Wire Wire Line
-	12550 4750 12500 4750
 Connection ~ 12350 3250
 Connection ~ 12550 4550
 Connection ~ 12350 4550
-Connection ~ 12550 4750
 Wire Wire Line
 	10950 3350 11050 3350
 Connection ~ 11550 3350
@@ -3780,15 +3417,9 @@ Wire Wire Line
 Wire Wire Line
 	1300 2050 1800 2050
 Wire Wire Line
-	1200 3350 1200 4650
-Wire Wire Line
 	2600 3250 2800 3250
 Wire Wire Line
-	2800 4550 2800 4750
-Wire Wire Line
 	2600 4550 2800 4550
-Wire Wire Line
-	2800 4750 2800 4800
 Wire Wire Line
 	1800 3350 2300 3350
 Wire Wire Line
@@ -3802,15 +3433,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 2050 3800 2050
 Wire Wire Line
-	3200 3350 3200 4650
-Wire Wire Line
 	4600 3250 4800 3250
 Wire Wire Line
-	4800 4550 4800 4750
-Wire Wire Line
 	4600 4550 4800 4550
-Wire Wire Line
-	4800 4750 4800 4800
 Wire Wire Line
 	3800 3350 4300 3350
 Wire Wire Line
@@ -3824,15 +3449,9 @@ Wire Wire Line
 Wire Wire Line
 	5200 2050 5700 2050
 Wire Wire Line
-	5100 3350 5100 4650
-Wire Wire Line
 	6500 3250 6700 3250
 Wire Wire Line
-	6700 4550 6700 4750
-Wire Wire Line
 	6500 4550 6700 4550
-Wire Wire Line
-	6700 4750 6700 4800
 Wire Wire Line
 	5700 3350 6200 3350
 Wire Wire Line
@@ -3846,15 +3465,9 @@ Wire Wire Line
 Wire Wire Line
 	7150 2050 7650 2050
 Wire Wire Line
-	7050 3350 7050 4650
-Wire Wire Line
 	8450 3250 8650 3250
 Wire Wire Line
-	8650 4550 8650 4750
-Wire Wire Line
 	8450 4550 8650 4550
-Wire Wire Line
-	8650 4750 8650 4800
 Wire Wire Line
 	7650 3350 8150 3350
 Wire Wire Line
@@ -3868,15 +3481,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 2050 9600 2050
 Wire Wire Line
-	9000 3350 9000 4650
-Wire Wire Line
 	10400 3250 10600 3250
 Wire Wire Line
-	10600 4550 10600 4750
-Wire Wire Line
 	10400 4550 10600 4550
-Wire Wire Line
-	10600 4750 10600 4800
 Wire Wire Line
 	9600 3350 10100 3350
 Wire Wire Line
@@ -3890,15 +3497,9 @@ Wire Wire Line
 Wire Wire Line
 	11050 2050 11550 2050
 Wire Wire Line
-	10950 3350 10950 4650
-Wire Wire Line
 	12350 3250 12550 3250
 Wire Wire Line
-	12550 4550 12550 4750
-Wire Wire Line
 	12350 4550 12550 4550
-Wire Wire Line
-	12550 4750 12550 4800
 Wire Wire Line
 	11550 3350 12050 3350
 Wire Wire Line
@@ -3922,4 +3523,31 @@ Text GLabel 5150 5600 0    60   Input ~ 0
 Brake
 Text GLabel 11000 5600 0    60   Input ~ 0
 Brake
+Wire Wire Line
+	2100 2800 2100 2900
+Wire Wire Line
+	1600 2800 1600 2900
+$Comp
+L Blinkers-rescue:Q_NMOS_DGS Q4
+U 1 1 5AFA06E5
+P 8750 5000
+F 0 "Q4" H 8950 5050 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 8950 4950 50  0000 L CNN
+F 2 "Footprints:CUSTOM_Socket_Strip_Straight_1x03_Pitch0.09in" H 8950 5100 50  0001 C CNN
+F 3 "" H 8750 5000 50  0001 C CNN
+	1    8750 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 4550 2800 4800
+Wire Wire Line
+	4800 4550 4800 4800
+Wire Wire Line
+	6700 4550 6700 4800
+Wire Wire Line
+	8650 4550 8650 4800
+Wire Wire Line
+	10600 4550 10600 4800
+Wire Wire Line
+	12550 4550 12550 4800
 $EndSCHEMATC
