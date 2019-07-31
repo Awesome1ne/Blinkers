@@ -1,9 +1,9 @@
-(pcb /home/awesomeone/Documents/KiCAD_Projects/Blinkers/Blinkers.dsn
+(pcb "\\acer\home\a-e\davisans\docs\GitHub\Blinkers\Blinkers.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "5.1.3-ffb9f22~84~ubuntu18.04.1")
+    (host_version "(5.1.2)-2")
   )
   (resolution um 10)
   (unit um)
@@ -81,8 +81,8 @@
       (place J7 228600 -112260 front 90 (PN A1))
       (place J4 228600 -99060 front 90 (PN A1))
       (place J2 228600 -95250 front 90 (PN A1))
-      (place J1 215900 -95250 front 0 (PN 12V))
-      (place J3 215900 -100330 front 0 (PN gnd))
+      (place J1 215900 -102870 front 90 (PN 12V))
+      (place J3 215900 -95250 front 90 (PN gnd))
       (place J5 228600 -119880 front 90 (PN A1))
       (place J6 228600 -102870 front 90 (PN A1))
     )
